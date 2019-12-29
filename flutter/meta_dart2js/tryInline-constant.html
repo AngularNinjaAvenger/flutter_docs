@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="API docs for the tryInline constant from the meta_dart2js library, for the Dart programming language."/>
+  <title>tryInline constant - meta_dart2js library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href=".."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li><a href="meta_dart2js/meta_dart2js-library.html">meta_dart2js</a></li>
+    <li class="self-crumb">tryInline constant</li>
+  </ol>
+  <div class="self-name">tryInline</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li><a href="meta_dart2js/meta_dart2js-library.html">meta_dart2js</a></li>
+      <li class="self-crumb">tryInline constant</li>
+    </ol>
+    
+    <h5>meta_dart2js library</h5>
+    <ol>
+    
+    
+      <li class="section-title"><a href="meta_dart2js/meta_dart2js-library.html#constants">Constants</a></li>
+      <li><a href="meta_dart2js/noInline-constant.html">noInline</a></li>
+      <li><a href="meta_dart2js/tryInline-constant.html">tryInline</a></li>
+    
+    
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><a class="dashingAutolink" name="autolink-22198"></a><a class="dashAnchor" name="//apple_ref/cpp/Constant/tryInline"></a><span class="kind-top-level-constant">tryInline</span> top-level constant </h1></div>
+
+      <section class="multi-line-signature">
+        const <span class="name ">tryInline</span>
+        =
+        <span class="constant-value">const _TryInline()</span>
+        
+      </section>
+      <section class="desc markdown">
+        <p>An annotation for methods method to request that dart2js always inlines the
+method.</p>
+<p>dart2js will attempt to inline the method regardless of its size. Even with
+this annotation, there are conditions that can prevent dart2js from inlining
+a method, including complex control flow.</p>
+<pre class="language-dart"><code>import &#39;package:meta/dart2js.dart&#39; as dart2js;
+
+@dart2js.tryInline
+String bigMethod() {
+  for (int i in &#34;Hello&#34;.runes) print(i);
+}
+</code></pre>
+<p>It is an error to use both <code>@noInline</code> and <code>@tryInline</code> on the same method.</p>
+      </section>
+            <section class="summary source-code" id="source">
+        <h2><span>Implementation</span></h2>
+        <pre class="language-dart"><code class="language-dart">const _TryInline tryInline = const _TryInline()</code></pre>
+      </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

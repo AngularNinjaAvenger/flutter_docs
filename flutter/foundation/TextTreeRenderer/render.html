@@ -1,0 +1,438 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="API docs for the render method from the TextTreeRenderer class, for the Dart programming language."/>
+  <title>render method - TextTreeRenderer class - foundation library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="../.."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li><a href="foundation/foundation-library.html">foundation</a></li>
+    <li><a href="foundation/TextTreeRenderer-class.html">TextTreeRenderer</a></li>
+    <li class="self-crumb">render method</li>
+  </ol>
+  <div class="self-name">render</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li><a href="foundation/foundation-library.html">foundation</a></li>
+      <li><a href="foundation/TextTreeRenderer-class.html">TextTreeRenderer</a></li>
+      <li class="self-crumb">render method</li>
+    </ol>
+    
+    <h5>TextTreeRenderer class</h5>
+    <ol>
+      <li class="section-title"><a href="foundation/TextTreeRenderer-class.html#constructors">Constructors</a></li>
+      <li><a href="foundation/TextTreeRenderer/TextTreeRenderer.html">TextTreeRenderer</a></li>
+    
+      <li class="section-title inherited">
+        <a href="foundation/TextTreeRenderer-class.html#instance-properties">Properties</a>
+      </li>
+      <li class="inherited"><a href="dart-core/Object/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="dart-core/Object/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title"><a href="foundation/TextTreeRenderer-class.html#instance-methods">Methods</a></li>
+      <li><a href="foundation/TextTreeRenderer/render.html">render</a></li>
+      <li class="inherited"><a href="dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="dart-core/Object/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="foundation/TextTreeRenderer-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="dart-core/Object/operator_equals.html">operator ==</a></li>
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div>  <div id="external-links" class="btn-group"><a title="View source code" class="source-link" href="https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/foundation/diagnostics.dart#L1108"><i class="material-icons">description</i></a></div>
+<h1><a class="dashingAutolink" name="autolink-17336"></a><a class="dashAnchor" name="//apple_ref/cpp/Method/render"></a><span class="kind-method">render</span> method</h1></div>
+
+    <section class="multi-line-signature">
+      <span class="returntype"><a href="dart-core/String-class.html">String</a></span>
+            <span class="name ">render</span>
+(<wbr/><span class="parameter" id="render-param-node"><span class="type-annotation"><a href="foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span> <span class="parameter-name">node</span>, {</span> <span class="parameter" id="render-param-prefixLineOne"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixLineOne</span>: <span class="default-value">&#39;&#39;</span>, </span> <span class="parameter" id="render-param-prefixOtherLines"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixOtherLines</span>, </span> <span class="parameter" id="render-param-parentConfiguration"><span class="type-annotation"><a href="foundation/TextTreeConfiguration-class.html">TextTreeConfiguration</a></span> <span class="parameter-name">parentConfiguration</span></span> })
+      
+    </section>
+    <section class="desc markdown">
+      <p>Renders a <code>node</code> to a String.</p>
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">String render(
+  DiagnosticsNode node, {
+  String prefixLineOne = &#39;&#39;,
+  String prefixOtherLines,
+  TextTreeConfiguration parentConfiguration,
+}) {
+  if (kReleaseMode) {
+    return &#39;&#39;;
+  }
+  final bool isSingleLine = _isSingleLine(node.style) &amp;&amp; parentConfiguration?.lineBreakProperties != true;
+  prefixOtherLines ??= prefixLineOne;
+  if (node.linePrefix != null) {
+    prefixLineOne += node.linePrefix;
+    prefixOtherLines += node.linePrefix;
+  }
+
+  final TextTreeConfiguration config = node.textTreeConfiguration;
+  if (prefixOtherLines.isEmpty)
+    prefixOtherLines += config.prefixOtherLinesRootNode;
+
+  if (node.style == DiagnosticsTreeStyle.truncateChildren) {
+    // This style is different enough that it isn&#39;t worthwhile to reuse the
+    // existing logic.
+    final List&lt;String&gt; descendants = &lt;String&gt;[];
+    const int maxDepth = 5;
+    int depth = 0;
+    const int maxLines = 25;
+    int lines = 0;
+    void visitor(DiagnosticsNode node) {
+      for (DiagnosticsNode child in node.getChildren()) {
+        if (lines &lt; maxLines) {
+          depth += 1;
+          descendants.add(&#39;$prefixOtherLines${&#34;  &#34; * depth}$child&#39;);
+          if (depth &lt; maxDepth)
+            visitor(child);
+          depth -= 1;
+        } else if (lines == maxLines) {
+          descendants.add(&#39;$prefixOtherLines  ...(descendants list truncated after $lines lines)&#39;);
+        }
+        lines += 1;
+      }
+    }
+    visitor(node);
+    final StringBuffer information = StringBuffer(prefixLineOne);
+    if (lines &gt; 1) {
+      information.writeln(&#39;This ${node.name} had the following descendants (showing up to depth $maxDepth):&#39;);
+    } else if (descendants.length == 1) {
+      information.writeln(&#39;This ${node.name} had the following child:&#39;);
+    } else {
+      information.writeln(&#39;This ${node.name} has no descendants.&#39;);
+    }
+    information.writeAll(descendants, &#39;\n&#39;);
+    return information.toString();
+  }
+  final _PrefixedStringBuilder builder = _PrefixedStringBuilder(
+    prefixLineOne: prefixLineOne,
+    prefixOtherLines: prefixOtherLines,
+    wrapWidth: math.max(_wrapWidth, prefixOtherLines.length + _wrapWidthProperties),
+  );
+
+  List&lt;DiagnosticsNode&gt; children = node.getChildren();
+
+  String description = node.toDescription(parentConfiguration: parentConfiguration);
+  if (config.beforeName.isNotEmpty) {
+    builder.write(config.beforeName);
+  }
+  final bool wrapName = !isSingleLine &amp;&amp; node.allowNameWrap;
+  final bool wrapDescription = !isSingleLine &amp;&amp; node.allowWrap;
+  final bool uppercaseTitle = node.style == DiagnosticsTreeStyle.error;
+  String name = node.name;
+  if (uppercaseTitle) {
+    name = name?.toUpperCase();
+  }
+  if (description == null || description.isEmpty) {
+    if (node.showName &amp;&amp; name != null)
+      builder.write(name, allowWrap: wrapName);
+  } else {
+    bool includeName = false;
+    if (name != null &amp;&amp; name.isNotEmpty &amp;&amp; node.showName) {
+      includeName = true;
+      builder.write(name, allowWrap: wrapName);
+      if (node.showSeparator)
+        builder.write(config.afterName, allowWrap: wrapName);
+
+      builder.write(
+        config.isNameOnOwnLine || description.contains(&#39;\n&#39;) ? &#39;\n&#39; : &#39; &#39;,
+        allowWrap: wrapName,
+      );
+    }
+    if (!isSingleLine &amp;&amp; builder.requiresMultipleLines &amp;&amp; !builder.isCurrentLineEmpty) {
+      // Make sure there is a break between the current line and next one if
+      // there is not one already.
+      builder.write(&#39;\n&#39;);
+    }
+    if (includeName) {
+      builder.incrementPrefixOtherLines(
+        children.isEmpty ? config.propertyPrefixNoChildren : config.propertyPrefixIfChildren,
+        updateCurrentLine: true,
+      );
+    }
+
+    if (uppercaseTitle) {
+      description = description.toUpperCase();
+    }
+    builder.write(description.trimRight(), allowWrap: wrapDescription);
+
+    if (!includeName) {
+      builder.incrementPrefixOtherLines(
+        children.isEmpty ? config.propertyPrefixNoChildren : config.propertyPrefixIfChildren,
+        updateCurrentLine: false,
+      );
+    }
+  }
+  if (config.suffixLineOne.isNotEmpty) {
+    builder.writeStretched(config.suffixLineOne, builder.wrapWidth);
+  }
+
+  final Iterable&lt;DiagnosticsNode&gt; propertiesIterable = node.getProperties().where(
+          (DiagnosticsNode n) =&gt; !n.isFiltered(_minLevel)
+  );
+  List&lt;DiagnosticsNode&gt; properties;
+  if (_maxDescendentsTruncatableNode &gt;= 0 &amp;&amp; node.allowTruncate) {
+    if (propertiesIterable.length &lt; _maxDescendentsTruncatableNode) {
+      properties =
+          propertiesIterable.take(_maxDescendentsTruncatableNode).toList();
+      properties.add(DiagnosticsNode.message(&#39;...&#39;));
+    } else {
+      properties = propertiesIterable.toList();
+    }
+    if (_maxDescendentsTruncatableNode &lt; children.length) {
+      children = children.take(_maxDescendentsTruncatableNode).toList();
+      children.add(DiagnosticsNode.message(&#39;...&#39;));
+    }
+  } else {
+    properties = propertiesIterable.toList();
+  }
+
+  // If the node does not show a separator and there is no description then
+  // we should not place a separator between the name and the value.
+  // Essentially in this case the properties are treated a bit like a value.
+  if ((properties.isNotEmpty || children.isNotEmpty || node.emptyBodyDescription != null) &amp;&amp;
+      (node.showSeparator || description?.isNotEmpty == true)) {
+    builder.write(config.afterDescriptionIfBody);
+  }
+
+  if (config.lineBreakProperties)
+    builder.write(config.lineBreak);
+
+  if (properties.isNotEmpty)
+    builder.write(config.beforeProperties);
+
+  builder.incrementPrefixOtherLines(config.bodyIndent, updateCurrentLine: false);
+
+  if (node.emptyBodyDescription != null &amp;&amp;
+      properties.isEmpty &amp;&amp;
+      children.isEmpty &amp;&amp;
+      prefixLineOne.isNotEmpty) {
+    builder.write(node.emptyBodyDescription);
+    if (config.lineBreakProperties)
+      builder.write(config.lineBreak);
+  }
+
+  for (int i = 0; i &lt; properties.length; ++i) {
+    final DiagnosticsNode property = properties[i];
+    if (i &gt; 0)
+      builder.write(config.propertySeparator);
+
+    final TextTreeConfiguration propertyStyle = property.textTreeConfiguration;
+    if (_isSingleLine(property.style)) {
+      // We have to treat single line properties slightly differently to deal
+      // with cases where a single line properties output may not have single
+      // linebreak.
+      final String propertyRender = render(property,
+        prefixLineOne: &#39;${propertyStyle.prefixLineOne}&#39;,
+        prefixOtherLines: &#39;${propertyStyle.childLinkSpace}${propertyStyle.prefixOtherLines}&#39;,
+        parentConfiguration: config,
+      );
+      final List&lt;String&gt; propertyLines = propertyRender.split(&#39;\n&#39;);
+      if (propertyLines.length == 1 &amp;&amp; !config.lineBreakProperties) {
+        builder.write(propertyLines.first);
+      } else {
+        builder.write(propertyRender, allowWrap: false);
+        if (!propertyRender.endsWith(&#39;\n&#39;))
+          builder.write(&#39;\n&#39;);
+      }
+    } else
+    {
+      final String propertyRender = render(property,
+        prefixLineOne: &#39;${builder.prefixOtherLines}${propertyStyle.prefixLineOne}&#39;,
+        prefixOtherLines: &#39;${builder.prefixOtherLines}${propertyStyle.childLinkSpace}${propertyStyle.prefixOtherLines}&#39;,
+        parentConfiguration: config,
+      );
+      builder.writeRawLines(propertyRender);
+    }
+  }
+  if (properties.isNotEmpty)
+    builder.write(config.afterProperties);
+
+  builder.write(config.mandatoryAfterProperties);
+
+  if (!config.lineBreakProperties)
+    builder.write(config.lineBreak);
+
+  final String prefixChildren = &#39;${config.bodyIndent}&#39;;
+  final String prefixChildrenRaw = &#39;$prefixOtherLines$prefixChildren&#39;;
+  if (children.isEmpty &amp;&amp;
+      config.addBlankLineIfNoChildren &amp;&amp;
+      builder.requiresMultipleLines &amp;&amp;
+      builder.prefixOtherLines.trimRight().isNotEmpty
+  ) {
+    builder.write(config.lineBreak);
+  }
+
+  if (children.isNotEmpty &amp;&amp; config.showChildren) {
+    if (config.isBlankLineBetweenPropertiesAndChildren &amp;&amp;
+        properties.isNotEmpty &amp;&amp;
+        children.first.textTreeConfiguration.isBlankLineBetweenPropertiesAndChildren) {
+      builder.write(config.lineBreak);
+    }
+
+    builder.prefixOtherLines = prefixOtherLines;
+
+    for (int i = 0; i &lt; children.length; i++) {
+      final DiagnosticsNode child = children[i];
+      assert(child != null);
+      final TextTreeConfiguration childConfig = _childTextConfiguration(child, config);
+      if (i == children.length - 1) {
+        final String lastChildPrefixLineOne = &#39;$prefixChildrenRaw${childConfig.prefixLastChildLineOne}&#39;;
+        final String childPrefixOtherLines = &#39;$prefixChildrenRaw${childConfig.childLinkSpace}${childConfig.prefixOtherLines}&#39;;
+        builder.writeRawLines(render(
+          child,
+          prefixLineOne: lastChildPrefixLineOne,
+          prefixOtherLines: childPrefixOtherLines,
+          parentConfiguration: config,
+        ));
+        if (childConfig.footer.isNotEmpty) {
+          builder.prefixOtherLines = prefixChildrenRaw;
+          builder.write(&#39;${childConfig.childLinkSpace}${childConfig.footer}&#39;);
+          if (childConfig.manditoryFooter.isNotEmpty) {
+            builder.writeStretched(
+              childConfig.manditoryFooter,
+              math.max(builder.wrapWidth, _wrapWidthProperties + childPrefixOtherLines.length),
+            );
+          }
+          builder.write(config.lineBreak);
+        }
+      } else {
+        final TextTreeConfiguration nextChildStyle = _childTextConfiguration(children[i + 1], config);
+        final String childPrefixLineOne = &#39;$prefixChildrenRaw${childConfig.prefixLineOne}&#39;;
+        final String childPrefixOtherLines =&#39;$prefixChildrenRaw${nextChildStyle.linkCharacter}${childConfig.prefixOtherLines}&#39;;
+        builder.writeRawLines(render(
+          child,
+          prefixLineOne: childPrefixLineOne,
+          prefixOtherLines: childPrefixOtherLines,
+          parentConfiguration: config,
+        ));
+        if (childConfig.footer.isNotEmpty) {
+          builder.prefixOtherLines = prefixChildrenRaw;
+          builder.write(&#39;${childConfig.linkCharacter}${childConfig.footer}&#39;);
+          if (childConfig.manditoryFooter.isNotEmpty) {
+            builder.writeStretched(
+              childConfig.manditoryFooter,
+              math.max(builder.wrapWidth, _wrapWidthProperties + childPrefixOtherLines.length),
+            );
+          }
+          builder.write(config.lineBreak);
+        }
+      }
+    }
+  }
+  if (parentConfiguration == null &amp;&amp; config.manditoryFooter.isNotEmpty) {
+    builder.writeStretched(config.manditoryFooter, builder.wrapWidth);
+    builder.write(config.lineBreak);
+  }
+  return builder.build();
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

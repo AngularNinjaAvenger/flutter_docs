@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/checkbox_list_tile.dart",
+    "sourceLine": 250,
+    "id": "material.CheckboxListTile.3",
+    "serial": "3",
+    "package": "flutter",
+    "library": "material",
+    "element": "CheckboxListTile",
+    "file": "material.CheckboxListTile.3.dart",
+    "description": "![Custom checkbox list tile sample](https://flutter.github.io/assets-for-api-docs/assets/material/checkbox_list_tile_custom.png)\n\nHere is an example of a custom LabeledCheckbox widget, but you can easily\nmake your own configurable widget."
+}

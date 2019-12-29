@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/card.dart",
+    "sourceLine": 99,
+    "id": "material.Card.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "Card",
+    "file": "material.Card.1.dart",
+    "description": "This sample shows creation of a [Card] widget that shows album information\nand two actions."
+}

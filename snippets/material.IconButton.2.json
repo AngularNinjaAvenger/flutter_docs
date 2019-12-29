@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/icon_button.dart",
+    "sourceLine": 126,
+    "id": "material.IconButton.2",
+    "serial": "2",
+    "package": "flutter",
+    "library": "material",
+    "element": "IconButton",
+    "file": "material.IconButton.2.dart",
+    "description": "In this sample the icon button's background color is defined with an [Ink]\nwidget whose child is an [IconButton]. The icon button's filled background\nis a light shade of blue, it's a filled circle, and it's as big as the\nbutton is."
+}

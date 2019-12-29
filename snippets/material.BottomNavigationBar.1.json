@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/bottom_navigation_bar.dart",
+    "sourceLine": 137,
+    "id": "material.BottomNavigationBar.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "BottomNavigationBar",
+    "file": "material.BottomNavigationBar.1.dart",
+    "description": "This example shows a [BottomNavigationBar] as it is used within a [Scaffold]\nwidget. The [BottomNavigationBar] has three [BottomNavigationBarItem]\nwidgets and the [currentIndex] is set to index 0. The selected item is\namber. The `_onItemTapped` function changes the selected item's index\nand displays a corresponding message in the center of the [Scaffold].\n\n![A scaffold with a bottom navigation bar containing three bottom navigation\nbar items. The first one is selected.](https://flutter.github.io/assets-for-api-docs/assets/material/bottom_navigation_bar.png)"
+}

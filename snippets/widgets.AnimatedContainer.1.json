@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/widgets/implicit_animations.dart",
+    "sourceLine": 606,
+    "id": "widgets.AnimatedContainer.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "widgets",
+    "element": "AnimatedContainer",
+    "file": "widgets.AnimatedContainer.1.dart",
+    "description": "The following example (depicted above) transitions an AnimatedContainer\nbetween two states. It adjusts the [height], [width], [color], and\n[alignment] properties when tapped."
+}

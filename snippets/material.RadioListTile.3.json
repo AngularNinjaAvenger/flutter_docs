@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/radio_list_tile.dart",
+    "sourceLine": 293,
+    "id": "material.RadioListTile.3",
+    "serial": "3",
+    "package": "flutter",
+    "library": "material",
+    "element": "RadioListTile",
+    "file": "material.RadioListTile.3.dart",
+    "description": "![Custom radio list tile sample](https://flutter.github.io/assets-for-api-docs/assets/material/radio_list_tile_custom.png)\n\nHere is an example of a custom LabeledRadio widget, but you can easily\nmake your own configurable widget."
+}

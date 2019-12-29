@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/widgets/basic.dart",
+    "sourceLine": 4461,
+    "id": "widgets.Expanded.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "widgets",
+    "element": "Expanded",
+    "file": "widgets.Expanded.1.dart",
+    "description": "This example shows how to use an [Expanded] widget in a [Column] so that\nit's middle child, a [Container] here, expands to fill the space.\n\n![An example using Expanded widget in a Column](https://flutter.github.io/assets-for-api-docs/assets/widgets/expanded_column.png)"
+}

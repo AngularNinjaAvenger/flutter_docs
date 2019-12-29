@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/scaffold.dart",
+    "sourceLine": 950,
+    "id": "material.Scaffold.2",
+    "serial": "2",
+    "package": "flutter",
+    "library": "material",
+    "element": "Scaffold",
+    "file": "material.Scaffold.2.dart",
+    "description": "This example shows a [Scaffold] with a [backgroundColor], [body] and\n[FloatingActionButton]. The [body] is a [Text] placed in a [Center] in order\nto center the text within the [Scaffold]. The [FloatingActionButton] is\nconnected to a callback that increments a counter.\n\n![A screenshot of the Scaffold widget example with a background color](https://flutter.github.io/assets-for-api-docs/assets/material/scaffold_background_color.png)"
+}

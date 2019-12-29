@@ -1,0 +1,419 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="API docs for the Metadata class from the backend library, for the Dart programming language."/>
+  <title>Metadata class - backend library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href=".."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li><a href="package-test_api_backend/package-test_api_backend-library.html">backend</a></li>
+    <li class="self-crumb">Metadata class</li>
+  </ol>
+  <div class="self-name">Metadata</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li><a href="package-test_api_backend/package-test_api_backend-library.html">backend</a></li>
+      <li class="self-crumb">Metadata class</li>
+    </ol>
+    
+    <h5>backend library</h5>
+    <ol>
+      <li class="section-title"><a href="package-test_api_backend/package-test_api_backend-library.html#classes">Classes</a></li>
+      <li><a href="package-test_api_backend/Metadata-class.html">Metadata</a></li>
+      <li><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></li>
+      <li><a href="package-test_api_backend/Runtime-class.html">Runtime</a></li>
+      <li><a href="package-test_api_backend/SuitePlatform-class.html">SuitePlatform</a></li>
+    
+    
+    
+    
+    
+    
+    
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><a class="dashingAutolink" name="autolink-24344"></a><a class="dashAnchor" name="//apple_ref/cpp/Class/Metadata"></a><span class="kind-class">Metadata</span> class </h1></div>
+
+    <section class="desc markdown">
+      <p>Metadata for a test or test suite.</p>
+<p>This metadata comes from declarations on the test itself; it doesn&#39;t include
+configuration from the user.</p>
+    </section>
+    
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="Metadata" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/Metadata.html">Metadata</a></span><span class="signature">({<span class="parameter" id="-param-testOn"><span class="type-annotation"><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span> <span class="parameter-name">testOn</span>, </span> <span class="parameter" id="-param-timeout"><span class="type-annotation"><a href="package-test_api_test_api/Timeout-class.html">Timeout</a></span> <span class="parameter-name">timeout</span>, </span> <span class="parameter" id="-param-skip"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">skip</span>, </span> <span class="parameter" id="-param-verboseTrace"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">verboseTrace</span>, </span> <span class="parameter" id="-param-chainStackTraces"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">chainStackTraces</span>, </span> <span class="parameter" id="-param-retry"><span class="type-annotation"><a href="dart-core/int-class.html">int</a></span> <span class="parameter-name">retry</span>, </span> <span class="parameter" id="-param-skipReason"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">skipReason</span>, </span> <span class="parameter" id="-param-tags"><span class="type-annotation"><a href="dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/String-class.html">String</a></span>&gt;</span></span> <span class="parameter-name">tags</span>, </span> <span class="parameter" id="-param-onPlatform"><span class="type-annotation"><a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span> <span class="parameter-name">onPlatform</span>, </span> <span class="parameter" id="-param-forTag"><span class="type-annotation"><a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-boolean_selector_boolean_selector/BooleanSelector-class.html">BooleanSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span> <span class="parameter-name">forTag</span></span> })</span>
+        </dt>
+        <dd>
+          Creates new Metadata. <a href="package-test_api_backend/Metadata/Metadata.html">[...]</a>
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="Metadata.deserialize" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/Metadata.deserialize.html">Metadata.deserialize</a></span><span class="signature">(<span class="parameter" id="deserialize-param-serialized"><span class="type-annotation">dynamic</span> <span class="parameter-name">serialized</span></span>)</span>
+        </dt>
+        <dd>
+          Deserializes the result of <a href="package-test_api_backend/Metadata/serialize.html">Metadata.serialize</a> into a new <a href="package-test_api_backend/Metadata-class.html">Metadata</a>.
+        </dd>
+        <dt id="Metadata.parse" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/Metadata.parse.html">Metadata.parse</a></span><span class="signature">({<span class="parameter" id="parse-param-testOn"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">testOn</span>, </span> <span class="parameter" id="parse-param-timeout"><span class="type-annotation"><a href="package-test_api_test_api/Timeout-class.html">Timeout</a></span> <span class="parameter-name">timeout</span>, </span> <span class="parameter" id="parse-param-skip"><span class="type-annotation">dynamic</span> <span class="parameter-name">skip</span>, </span> <span class="parameter" id="parse-param-verboseTrace"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">verboseTrace</span>, </span> <span class="parameter" id="parse-param-chainStackTraces"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">chainStackTraces</span>, </span> <span class="parameter" id="parse-param-retry"><span class="type-annotation"><a href="dart-core/int-class.html">int</a></span> <span class="parameter-name">retry</span>, </span> <span class="parameter" id="parse-param-onPlatform"><span class="type-annotation"><a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">onPlatform</span>, </span> <span class="parameter" id="parse-param-tags"><span class="type-annotation">dynamic</span> <span class="parameter-name">tags</span></span> })</span>
+        </dt>
+        <dd>
+          Creates a new Metadata, but with fields parsed from caller-friendly values
+where applicable. <a href="package-test_api_backend/Metadata/Metadata.parse.html">[...]</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="chainStackTraces" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/chainStackTraces.html">chainStackTraces</a></span>
+          <span class="signature">&rarr; <a href="dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd>
+          Whether to chain stack traces.
+                  <div class="features">read-only</div>
+</dd>
+        <dt id="forTag" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/forTag.html">forTag</a></span>
+          <span class="signature">&rarr; <a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-boolean_selector_boolean_selector/BooleanSelector-class.html">BooleanSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Metadata that applies only when specific tags are applied. <a href="package-test_api_backend/Metadata/forTag.html">[...]</a>
+                  <div class="features">final</div>
+</dd>
+        <dt id="onPlatform" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/onPlatform.html">onPlatform</a></span>
+          <span class="signature">&rarr; <a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Platform-specific metadata. <a href="package-test_api_backend/Metadata/onPlatform.html">[...]</a>
+                  <div class="features">final</div>
+</dd>
+        <dt id="retry" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/retry.html">retry</a></span>
+          <span class="signature">&rarr; <a href="dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+          The number of times to re-run a test before being marked as a failure.
+                  <div class="features">read-only</div>
+</dd>
+        <dt id="skip" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/skip.html">skip</a></span>
+          <span class="signature">&rarr; <a href="dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd>
+          Whether the test or suite should be skipped.
+                  <div class="features">read-only</div>
+</dd>
+        <dt id="skipReason" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/skipReason.html">skipReason</a></span>
+          <span class="signature">&rarr; <a href="dart-core/String-class.html">String</a></span>         
+        </dt>
+        <dd>
+          The reason the test or suite should be skipped, if given.
+                  <div class="features">final</div>
+</dd>
+        <dt id="tags" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/tags.html">tags</a></span>
+          <span class="signature">&rarr; <a href="dart-core/Set-class.html">Set</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/String-class.html">String</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+          The user-defined tags attached to the test or suite.
+                  <div class="features">final</div>
+</dd>
+        <dt id="testOn" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/testOn.html">testOn</a></span>
+          <span class="signature">&rarr; <a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span>         
+        </dt>
+        <dd>
+          The selector indicating which platforms the suite supports.
+                  <div class="features">final</div>
+</dd>
+        <dt id="timeout" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/timeout.html">timeout</a></span>
+          <span class="signature">&rarr; <a href="package-test_api_test_api/Timeout-class.html">Timeout</a></span>         
+        </dt>
+        <dd>
+          The modification to the timeout for the test or suite.
+                  <div class="features">final</div>
+</dd>
+        <dt id="verboseTrace" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/verboseTrace.html">verboseTrace</a></span>
+          <span class="signature">&rarr; <a href="dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd>
+          Whether to use verbose stack traces.
+                  <div class="features">read-only</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="dart-core/Object/hashCode.html">hashCode</a></span>
+          <span class="signature">&rarr; <a href="dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="dart-core/Object/hashCode.html">[...]</a>
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="dart-core/Object/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&rarr; <a href="dart-core/Type-class.html">Type</a></span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object.
+                  <div class="features">read-only, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="change" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/change.html">change</a></span><span class="signature">(<wbr/>{<span class="parameter" id="change-param-testOn"><span class="type-annotation"><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span> <span class="parameter-name">testOn</span>, </span> <span class="parameter" id="change-param-timeout"><span class="type-annotation"><a href="package-test_api_test_api/Timeout-class.html">Timeout</a></span> <span class="parameter-name">timeout</span>, </span> <span class="parameter" id="change-param-skip"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">skip</span>, </span> <span class="parameter" id="change-param-verboseTrace"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">verboseTrace</span>, </span> <span class="parameter" id="change-param-chainStackTraces"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">chainStackTraces</span>, </span> <span class="parameter" id="change-param-retry"><span class="type-annotation"><a href="dart-core/int-class.html">int</a></span> <span class="parameter-name">retry</span>, </span> <span class="parameter" id="change-param-skipReason"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">skipReason</span>, </span> <span class="parameter" id="change-param-onPlatform"><span class="type-annotation"><a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span> <span class="parameter-name">onPlatform</span>, </span> <span class="parameter" id="change-param-tags"><span class="type-annotation"><a href="dart-core/Set-class.html">Set</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/String-class.html">String</a></span>&gt;</span></span> <span class="parameter-name">tags</span>, </span> <span class="parameter" id="change-param-forTag"><span class="type-annotation"><a href="dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="package-boolean_selector_boolean_selector/BooleanSelector-class.html">BooleanSelector</a></span>, <span class="type-parameter"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>&gt;</span></span> <span class="parameter-name">forTag</span></span> })
+            <span class="returntype parameter">&rarr; <a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Returns a copy of <a href="package-test_api_backend/Metadata-class.html">this</a> with the given fields changed.
+                  
+</dd>
+        <dt id="forPlatform" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/forPlatform.html">forPlatform</a></span><span class="signature">(<wbr/><span class="parameter" id="forPlatform-param-platform"><span class="type-annotation"><a href="package-test_api_backend/SuitePlatform-class.html">SuitePlatform</a></span> <span class="parameter-name">platform</span></span>)
+            <span class="returntype parameter">&rarr; <a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Returns a copy of <a href="package-test_api_backend/Metadata-class.html">this</a> with all platform-specific metadata from
+<a href="package-test_api_backend/Metadata/onPlatform.html">onPlatform</a> resolved.
+                  
+</dd>
+        <dt id="merge" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/merge.html">merge</a></span><span class="signature">(<wbr/><span class="parameter" id="merge-param-other"><span class="type-annotation"><a href="package-test_api_backend/Metadata-class.html">Metadata</a></span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&rarr; <a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Return a new <a href="package-test_api_backend/Metadata-class.html">Metadata</a> that merges <a href="package-test_api_backend/Metadata-class.html">this</a> with <code>other</code>. <a href="package-test_api_backend/Metadata/merge.html">[...]</a>
+                  
+</dd>
+        <dt id="serialize" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/serialize.html">serialize</a></span><span class="signature">(<wbr/>)
+            <span class="returntype parameter">&rarr; dynamic</span>
+          </span>
+                  </dt>
+        <dd>
+          Serializes <a href="package-test_api_backend/Metadata-class.html">this</a> into a JSON-safe object that can be deserialized using
+<a href="package-test_api_backend/Metadata/Metadata.deserialize.html">new Metadata.deserialize</a>.
+                  
+</dd>
+        <dt id="validatePlatformSelectors" class="callable">
+          <span class="name"><a href="package-test_api_backend/Metadata/validatePlatformSelectors.html">validatePlatformSelectors</a></span><span class="signature">(<wbr/><span class="parameter" id="validatePlatformSelectors-param-validVariables"><span class="type-annotation"><a href="dart-core/Set-class.html">Set</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/String-class.html">String</a></span>&gt;</span></span> <span class="parameter-name">validVariables</span></span>)
+            <span class="returntype parameter">&rarr; void</span>
+          </span>
+                  </dt>
+        <dd>
+          Throws a <a href="dart-core/FormatException-class.html">FormatException</a> if any <a href="package-test_api_backend/PlatformSelector-class.html">PlatformSelector</a>s use any variables
+that don&#39;t appear either in <code>validVariables</code> or in the set of variables
+that are known to be valid for all selectors.
+                  
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr/><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&rarr; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="dart-core/Object/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr/>)
+            <span class="returntype parameter">&rarr; <a href="dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this object.
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <a class="dashingAutolink" name="autolink-24343"></a><a class="dashAnchor" name="//apple_ref/cpp/Operator/%3D%3D%28dynamic%20other%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%E2%86%92%20bool"></a><dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr/><span class="parameter" id="==-param-other"><span class="type-annotation">dynamic</span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&rarr; <a href="dart-core/bool-class.html">bool</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="dart-core/Object/operator_equals.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="static-properties">
+      <h2>Static Properties</h2>
+
+      <dl class="properties">
+        <dt id="empty" class="property">
+          <span class="name"><a href="package-test_api_backend/Metadata/empty.html">empty</a></span>
+          <span class="signature">&rarr; <a href="package-test_api_backend/Metadata-class.html">Metadata</a></span>         
+        </dt>
+        <dd>
+          Empty metadata with only default values. <a href="package-test_api_backend/Metadata/empty.html">[...]</a>
+                  <div class="features">final</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+      <li class="section-title"><a href="package-test_api_backend/Metadata-class.html#constructors">Constructors</a></li>
+      <li><a href="package-test_api_backend/Metadata/Metadata.html">Metadata</a></li>
+      <li><a href="package-test_api_backend/Metadata/Metadata.deserialize.html">deserialize</a></li>
+      <li><a href="package-test_api_backend/Metadata/Metadata.parse.html">parse</a></li>
+    
+      <li class="section-title">
+        <a href="package-test_api_backend/Metadata-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="package-test_api_backend/Metadata/chainStackTraces.html">chainStackTraces</a></li>
+      <li><a href="package-test_api_backend/Metadata/forTag.html">forTag</a></li>
+      <li><a href="package-test_api_backend/Metadata/onPlatform.html">onPlatform</a></li>
+      <li><a href="package-test_api_backend/Metadata/retry.html">retry</a></li>
+      <li><a href="package-test_api_backend/Metadata/skip.html">skip</a></li>
+      <li><a href="package-test_api_backend/Metadata/skipReason.html">skipReason</a></li>
+      <li><a href="package-test_api_backend/Metadata/tags.html">tags</a></li>
+      <li><a href="package-test_api_backend/Metadata/testOn.html">testOn</a></li>
+      <li><a href="package-test_api_backend/Metadata/timeout.html">timeout</a></li>
+      <li><a href="package-test_api_backend/Metadata/verboseTrace.html">verboseTrace</a></li>
+      <li class="inherited"><a href="dart-core/Object/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="dart-core/Object/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title"><a href="package-test_api_backend/Metadata-class.html#instance-methods">Methods</a></li>
+      <li><a href="package-test_api_backend/Metadata/change.html">change</a></li>
+      <li><a href="package-test_api_backend/Metadata/forPlatform.html">forPlatform</a></li>
+      <li><a href="package-test_api_backend/Metadata/merge.html">merge</a></li>
+      <li><a href="package-test_api_backend/Metadata/serialize.html">serialize</a></li>
+      <li><a href="package-test_api_backend/Metadata/validatePlatformSelectors.html">validatePlatformSelectors</a></li>
+      <li class="inherited"><a href="dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="dart-core/Object/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="package-test_api_backend/Metadata-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="dart-core/Object/operator_equals.html">operator ==</a></li>
+    
+      <li class="section-title"><a href="package-test_api_backend/Metadata-class.html#static-properties">Static properties</a></li>
+      <li><a href="package-test_api_backend/Metadata/empty.html">empty</a></li>
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

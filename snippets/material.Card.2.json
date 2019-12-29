@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/card.dart",
+    "sourceLine": 99,
+    "id": "material.Card.2",
+    "serial": "2",
+    "package": "flutter",
+    "library": "material",
+    "element": "Card",
+    "file": "material.Card.2.dart",
+    "description": "This sample shows creation of a [Card] widget that can be tapped. When\ntapped this [Card]'s [InkWell] displays an \"ink splash\" that fills the\nentire card."
+}

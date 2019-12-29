@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/app_bar.dart",
+    "sourceLine": 166,
+    "id": "material.AppBar.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "AppBar",
+    "file": "material.AppBar.1.dart",
+    "description": "This sample shows an [AppBar] with two simple actions. The first action\nopens a [SnackBar], while the second action navigates to a new page."
+}

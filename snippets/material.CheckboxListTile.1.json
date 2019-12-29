@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/checkbox_list_tile.dart",
+    "sourceLine": 250,
+    "id": "material.CheckboxListTile.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "CheckboxListTile",
+    "file": "material.CheckboxListTile.1.dart",
+    "description": "![CheckboxListTile sample](https://flutter.github.io/assets-for-api-docs/assets/material/checkbox_list_tile.png)\n\nThis widget shows a checkbox that, when checked, slows down all animations\n(including the animation of the checkbox itself getting checked!).\n\nThis sample requires that you also import 'package:flutter/scheduler.dart',\nso that you can reference [timeDilation]."
+}

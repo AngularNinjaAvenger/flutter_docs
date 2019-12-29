@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/floating_action_button.dart",
+    "sourceLine": 122,
+    "id": "material.FloatingActionButton.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "FloatingActionButton",
+    "file": "material.FloatingActionButton.1.dart",
+    "description": "This example shows how to make a simple [FloatingActionButton] in a\n[Scaffold], with a pink [backgroundColor] and a thumbs up [Icon].\n\n![A screenshot of a green floating action button with a navigation icon](https://flutter.github.io/assets-for-api-docs/assets/material/floating_action_button.png)"
+}

@@ -1,0 +1,342 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="API docs for the parse method from the HttpDate class, for the Dart programming language."/>
+  <title>parse method - HttpDate class - dart:io library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="../.."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li><a href="dart-io/dart-io-library.html">dart:io</a></li>
+    <li><a href="dart-io/HttpDate-class.html">HttpDate</a></li>
+    <li class="self-crumb">parse method</li>
+  </ol>
+  <div class="self-name">parse</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li><a href="dart-io/dart-io-library.html">dart:io</a></li>
+      <li><a href="dart-io/HttpDate-class.html">HttpDate</a></li>
+      <li class="self-crumb">parse method</li>
+    </ol>
+    
+    <h5>HttpDate class</h5>
+    <ol>
+      <li class="section-title"><a href="dart-io/HttpDate-class.html#constructors">Constructors</a></li>
+      <li><a href="dart-io/HttpDate/HttpDate.html">HttpDate</a></li>
+    
+      <li class="section-title inherited">
+        <a href="dart-io/HttpDate-class.html#instance-properties">Properties</a>
+      </li>
+      <li class="inherited"><a href="dart-core/Object/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="dart-core/Object/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title inherited"><a href="dart-io/HttpDate-class.html#instance-methods">Methods</a></li>
+      <li class="inherited"><a href="dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="dart-core/Object/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="dart-io/HttpDate-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="dart-core/Object/operator_equals.html">operator ==</a></li>
+    
+    
+      <li class="section-title"><a href="dart-io/HttpDate-class.html#static-methods">Static methods</a></li>
+      <li><a href="dart-io/HttpDate/format.html">format</a></li>
+      <li><a href="dart-io/HttpDate/parse.html">parse</a></li>
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><a class="dashingAutolink" name="autolink-3756"></a><a class="dashAnchor" name="//apple_ref/cpp/Method/parse"></a><span class="kind-method">parse</span> method</h1></div>
+
+    <section class="multi-line-signature">
+      <span class="returntype"><a href="dart-core/DateTime-class.html">DateTime</a></span>
+            <span class="name ">parse</span>
+(<wbr/><span class="parameter" id="parse-param-date"><span class="type-annotation"><a href="dart-core/String-class.html">String</a></span> <span class="parameter-name">date</span></span>)
+      
+    </section>
+    <section class="desc markdown">
+      <p>Parse a date string in either of the formats
+<a href="http://tools.ietf.org/html/rfc1123" title="RFC-1123">RFC-1123</a>,
+<a href="http://tools.ietf.org/html/rfc850" title="RFC-850">RFC-850</a> or
+ANSI C&#39;s asctime() format. These formats are listed here.</p>
+<pre class="language-dart"><code>Thu, 1 Jan 1970 00:00:00 GMT
+Thursday, 1-Jan-1970 00:00:00 GMT
+Thu Jan  1 00:00:00 1970
+</code></pre>
+<p>For more information see <a href="http://tools.ietf.org/html/rfc2616#section-3.3.1" title="RFC-2616 section 3.1.1">RFC-2616 section
+3.1.1</a>.</p>
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">static DateTime parse(String date) {
+  final int SP = 32;
+  const List wkdays = const [&#34;Mon&#34;, &#34;Tue&#34;, &#34;Wed&#34;, &#34;Thu&#34;, &#34;Fri&#34;, &#34;Sat&#34;, &#34;Sun&#34;];
+  const List weekdays = const [
+    &#34;Monday&#34;,
+    &#34;Tuesday&#34;,
+    &#34;Wednesday&#34;,
+    &#34;Thursday&#34;,
+    &#34;Friday&#34;,
+    &#34;Saturday&#34;,
+    &#34;Sunday&#34;
+  ];
+  const List months = const [
+    &#34;Jan&#34;,
+    &#34;Feb&#34;,
+    &#34;Mar&#34;,
+    &#34;Apr&#34;,
+    &#34;May&#34;,
+    &#34;Jun&#34;,
+    &#34;Jul&#34;,
+    &#34;Aug&#34;,
+    &#34;Sep&#34;,
+    &#34;Oct&#34;,
+    &#34;Nov&#34;,
+    &#34;Dec&#34;
+  ];
+  const List wkdaysLowerCase = const [
+    &#34;mon&#34;,
+    &#34;tue&#34;,
+    &#34;wed&#34;,
+    &#34;thu&#34;,
+    &#34;fri&#34;,
+    &#34;sat&#34;,
+    &#34;sun&#34;
+  ];
+  const List weekdaysLowerCase = const [
+    &#34;monday&#34;,
+    &#34;tuesday&#34;,
+    &#34;wednesday&#34;,
+    &#34;thursday&#34;,
+    &#34;friday&#34;,
+    &#34;saturday&#34;,
+    &#34;sunday&#34;
+  ];
+  const List monthsLowerCase = const [
+    &#34;jan&#34;,
+    &#34;feb&#34;,
+    &#34;mar&#34;,
+    &#34;apr&#34;,
+    &#34;may&#34;,
+    &#34;jun&#34;,
+    &#34;jul&#34;,
+    &#34;aug&#34;,
+    &#34;sep&#34;,
+    &#34;oct&#34;,
+    &#34;nov&#34;,
+    &#34;dec&#34;
+  ];
+
+  final int formatRfc1123 = 0;
+  final int formatRfc850 = 1;
+  final int formatAsctime = 2;
+
+  int index = 0;
+  String tmp;
+  int format;
+
+  void expect(String s) {
+    if (date.length - index &lt; s.length) {
+      throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+    }
+    String tmp = date.substring(index, index + s.length);
+    if (tmp != s) {
+      throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+    }
+    index += s.length;
+  }
+
+  int expectWeekday() {
+    int weekday;
+    // The formatting of the weekday signals the format of the date string.
+    int pos = date.indexOf(&#34;,&#34;, index);
+    if (pos == -1) {
+      int pos = date.indexOf(&#34; &#34;, index);
+      if (pos == -1) throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+      tmp = date.substring(index, pos);
+      index = pos + 1;
+      weekday = wkdays.indexOf(tmp);
+      if (weekday != -1) {
+        format = formatAsctime;
+        return weekday;
+      }
+    } else {
+      tmp = date.substring(index, pos);
+      index = pos + 1;
+      weekday = wkdays.indexOf(tmp);
+      if (weekday != -1) {
+        format = formatRfc1123;
+        return weekday;
+      }
+      weekday = weekdays.indexOf(tmp);
+      if (weekday != -1) {
+        format = formatRfc850;
+        return weekday;
+      }
+    }
+    throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+  }
+
+  int expectMonth(String separator) {
+    int pos = date.indexOf(separator, index);
+    if (pos - index != 3) throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+    tmp = date.substring(index, pos);
+    index = pos + 1;
+    int month = months.indexOf(tmp);
+    if (month != -1) return month;
+    throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+  }
+
+  int expectNum(String separator) {
+    int pos;
+    if (separator.length &gt; 0) {
+      pos = date.indexOf(separator, index);
+    } else {
+      pos = date.length;
+    }
+    String tmp = date.substring(index, pos);
+    index = pos + separator.length;
+    try {
+      int value = int.parse(tmp);
+      return value;
+    } on FormatException catch (e) {
+      throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+    }
+  }
+
+  void expectEnd() {
+    if (index != date.length) {
+      throw new HttpException(&#34;Invalid HTTP date $date&#34;);
+    }
+  }
+
+  int weekday = expectWeekday();
+  int day;
+  int month;
+  int year;
+  int hours;
+  int minutes;
+  int seconds;
+  if (format == formatAsctime) {
+    month = expectMonth(&#34; &#34;);
+    if (date.codeUnitAt(index) == SP) index++;
+    day = expectNum(&#34; &#34;);
+    hours = expectNum(&#34;:&#34;);
+    minutes = expectNum(&#34;:&#34;);
+    seconds = expectNum(&#34; &#34;);
+    year = expectNum(&#34;&#34;);
+  } else {
+    expect(&#34; &#34;);
+    day = expectNum(format == formatRfc1123 ? &#34; &#34; : &#34;-&#34;);
+    month = expectMonth(format == formatRfc1123 ? &#34; &#34; : &#34;-&#34;);
+    year = expectNum(&#34; &#34;);
+    hours = expectNum(&#34;:&#34;);
+    minutes = expectNum(&#34;:&#34;);
+    seconds = expectNum(&#34; &#34;);
+    expect(&#34;GMT&#34;);
+  }
+  expectEnd();
+  return new DateTime.utc(year, month + 1, day, hours, minutes, seconds, 0);
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

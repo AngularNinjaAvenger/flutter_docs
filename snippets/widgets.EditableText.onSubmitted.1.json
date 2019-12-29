@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/widgets/editable_text.dart",
+    "sourceLine": 855,
+    "id": "widgets.EditableText.onSubmitted.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "widgets",
+    "element": "EditableText.onSubmitted",
+    "file": "widgets.EditableText.onSubmitted.1.dart",
+    "description": "When a non-completion action is pressed, such as \"next\" or \"previous\", it\nis often desirable to move the focus to the next or previous field.  To do\nthis, handle it as in this example, by calling [FocusNode.focusNext] in\nthe [TextFormField.onFieldSubmitted] callback ([TextFormField] wraps\n[EditableText] internally, and uses the value of `onFieldSubmitted` as its\n[onSubmitted])."
+}

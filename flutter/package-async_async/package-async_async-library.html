@@ -1,0 +1,541 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="async library API docs, for the Dart programming language."/>
+  <title>async library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href=".."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li class="self-crumb">async library</li>
+  </ol>
+  <div class="self-name">async</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li class="self-crumb">async library</li>
+    </ol>
+    
+    <h5><span class="package-name">Flutter</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="animation/animation-library.html">animation</a></li>
+          <li><a href="cupertino/cupertino-library.html">cupertino</a></li>
+          <li><a href="foundation/foundation-library.html">foundation</a></li>
+          <li><a href="gestures/gestures-library.html">gestures</a></li>
+          <li><a href="material/material-library.html">material</a></li>
+          <li><a href="painting/painting-library.html">painting</a></li>
+          <li><a href="physics/physics-library.html">physics</a></li>
+          <li><a href="rendering/rendering-library.html">rendering</a></li>
+          <li><a href="scheduler/scheduler-library.html">scheduler</a></li>
+          <li><a href="semantics/semantics-library.html">semantics</a></li>
+          <li><a href="services/services-library.html">services</a></li>
+          <li><a href="widgets/widgets-library.html">widgets</a></li>
+          <li class="section-title">Dart</li>
+          <li><a href="dart-ui/dart-ui-library.html">dart:ui</a></li>
+          <li class="section-subtitle">Core</li>
+            <li class="section-subitem"><a href="dart-async/dart-async-library.html">dart:async</a></li>
+            <li class="section-subitem"><a href="dart-collection/dart-collection-library.html">dart:collection</a></li>
+            <li class="section-subitem"><a href="dart-convert/dart-convert-library.html">dart:convert</a></li>
+            <li class="section-subitem"><a href="dart-core/dart-core-library.html">dart:core</a></li>
+            <li class="section-subitem"><a href="dart-developer/dart-developer-library.html">dart:developer</a></li>
+            <li class="section-subitem"><a href="dart-math/dart-math-library.html">dart:math</a></li>
+            <li class="section-subitem"><a href="dart-typed_data/dart-typed_data-library.html">dart:typed_data</a></li>
+          <li class="section-subtitle">VM</li>
+            <li class="section-subitem"><a href="dart-io/dart-io-library.html">dart:io</a></li>
+            <li class="section-subitem"><a href="dart-isolate/dart-isolate-library.html">dart:isolate</a></li>
+          <li class="section-title">platform_integration</li>
+          <li><a href="Android/Android-library.html">Android</a></li>
+          <li><a href="iOS/iOS-library.html">iOS</a></li>
+          <li class="section-title">flutter_test</li>
+          <li><a href="flutter_test/flutter_test-library.html">flutter_test</a></li>
+          <li class="section-title">flutter_driver</li>
+          <li><a href="flutter_driver/flutter_driver-library.html">flutter_driver</a></li>
+          <li><a href="flutter_driver_extension/flutter_driver_extension-library.html">flutter_driver_extension</a></li>
+          <li class="section-title">flutter_localizations</li>
+          <li><a href="flutter_localizations/flutter_localizations-library.html">flutter_localizations</a></li>
+          <li class="section-title">async</li>
+          <li><a href="package-async_async/package-async_async-library.html">async</a></li>
+          <li class="section-title">boolean_selector</li>
+          <li><a href="package-boolean_selector_boolean_selector/package-boolean_selector_boolean_selector-library.html">boolean_selector</a></li>
+          <li class="section-title">charcode</li>
+          <li><a href="charcode/charcode-library.html">charcode</a></li>
+          <li><a href="charcode.ascii.dollar_lowercase/charcode.ascii.dollar_lowercase-library.html">charcode.ascii.dollar_lowercase</a></li>
+          <li><a href="charcode.htmlentity.dollar_lowercase/charcode.htmlentity.dollar_lowercase-library.html">charcode.htmlentity.dollar_lowercase</a></li>
+          <li class="section-title">collection</li>
+          <li><a href="package-collection_collection/package-collection_collection-library.html">collection</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.algorithms/dart.pkg.collection.algorithms-library.html">dart.pkg.collection.algorithms</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.equality/dart.pkg.collection.equality-library.html">dart.pkg.collection.equality</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.iterable_zip/dart.pkg.collection.iterable_zip-library.html">dart.pkg.collection.iterable_zip</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.priority_queue/dart.pkg.collection.priority_queue-library.html">dart.pkg.collection.priority_queue</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.wrappers/dart.pkg.collection.wrappers-library.html">dart.pkg.collection.wrappers</a></li>
+          <li class="section-title">convert</li>
+          <li><a href="convert/convert-library.html">convert</a></li>
+          <li class="section-title">crypto</li>
+          <li><a href="package-crypto_crypto/package-crypto_crypto-library.html">crypto</a></li>
+          <li class="section-title">file</li>
+          <li><a href="package-file_chroot/package-file_chroot-library.html">chroot</a></li>
+          <li><a href="package-file_file/package-file_file-library.html">file</a></li>
+          <li><a href="package-file_local/package-file_local-library.html">local</a></li>
+          <li><a href="package-file_memory/package-file_memory-library.html">memory</a></li>
+          <li><a href="package-file_record_replay/package-file_record_replay-library.html">record_replay</a></li>
+          <li class="section-title">intl</li>
+          <li><a href="package-intl_date_symbol_data_custom/package-intl_date_symbol_data_custom-library.html">date_symbol_data_custom</a></li>
+          <li><a href="date_symbol_data_file/date_symbol_data_file-library.html">date_symbol_data_file</a></li>
+          <li><a href="date_symbol_data_http_request/date_symbol_data_http_request-library.html">date_symbol_data_http_request</a></li>
+          <li><a href="date_symbol_data_local/date_symbol_data_local-library.html">date_symbol_data_local</a></li>
+          <li><a href="date_symbols/date_symbols-library.html">date_symbols</a></li>
+          <li><a href="date_time_patterns/date_time_patterns-library.html">date_time_patterns</a></li>
+          <li><a href="intl/intl-library.html">intl</a></li>
+          <li><a href="intl_standalone/intl_standalone-library.html">intl_standalone</a></li>
+          <li><a href="message_lookup_by_library/message_lookup_by_library-library.html">message_lookup_by_library</a></li>
+          <li><a href="number_symbol_data/number_symbol_data-library.html">number_symbol_data</a></li>
+          <li><a href="number_symbols/number_symbols-library.html">number_symbols</a></li>
+          <li class="section-title">json_rpc_2</li>
+          <li><a href="package-json_rpc_2_error_code/package-json_rpc_2_error_code-library.html">error_code</a></li>
+          <li><a href="package-json_rpc_2_json_rpc_2/package-json_rpc_2_json_rpc_2-library.html">json_rpc_2</a></li>
+          <li class="section-title">matcher</li>
+          <li><a href="package-matcher_matcher/package-matcher_matcher-library.html">matcher</a></li>
+          <li class="section-title">meta</li>
+          <li><a href="meta/meta-library.html">meta</a></li>
+          <li><a href="meta_dart2js/meta_dart2js-library.html">meta_dart2js</a></li>
+          <li class="section-title">path</li>
+          <li><a href="package-path_path/package-path_path-library.html">path</a></li>
+          <li class="section-title">pedantic</li>
+          <li><a href="package-pedantic_pedantic/package-pedantic_pedantic-library.html">pedantic</a></li>
+          <li class="section-title">platform</li>
+          <li><a href="package-platform_platform/package-platform_platform-library.html">platform</a></li>
+          <li class="section-title">process</li>
+          <li><a href="package-process_process/package-process_process-library.html">process</a></li>
+          <li><a href="package-process_record_replay/package-process_record_replay-library.html">record_replay</a></li>
+          <li class="section-title">pub_semver</li>
+          <li><a href="package-pub_semver_pub_semver/package-pub_semver_pub_semver-library.html">pub_semver</a></li>
+          <li class="section-title">quiver</li>
+          <li><a href="quiver.async/quiver.async-library.html">quiver.async</a></li>
+          <li><a href="quiver.cache/quiver.cache-library.html">quiver.cache</a></li>
+          <li><a href="quiver.check/quiver.check-library.html">quiver.check</a></li>
+          <li><a href="quiver.collection/quiver.collection-library.html">quiver.collection</a></li>
+          <li><a href="quiver.core/quiver.core-library.html">quiver.core</a></li>
+          <li><a href="quiver.iterables/quiver.iterables-library.html">quiver.iterables</a></li>
+          <li><a href="quiver.pattern/quiver.pattern-library.html">quiver.pattern</a></li>
+          <li><a href="quiver.strings/quiver.strings-library.html">quiver.strings</a></li>
+          <li><a href="quiver.testing.async/quiver.testing.async-library.html">quiver.testing.async</a></li>
+          <li><a href="quiver.testing.equality/quiver.testing.equality-library.html">quiver.testing.equality</a></li>
+          <li><a href="quiver.testing.runtime/quiver.testing.runtime-library.html">quiver.testing.runtime</a></li>
+          <li><a href="quiver.testing.time/quiver.testing.time-library.html">quiver.testing.time</a></li>
+          <li><a href="quiver.time/quiver.time-library.html">quiver.time</a></li>
+          <li class="section-title">source_span</li>
+          <li><a href="package-source_span_source_span/package-source_span_source_span-library.html">source_span</a></li>
+          <li class="section-title">stack_trace</li>
+          <li><a href="package-stack_trace_stack_trace/package-stack_trace_stack_trace-library.html">stack_trace</a></li>
+          <li class="section-title">stream_channel</li>
+          <li><a href="package-stream_channel_isolate_channel/package-stream_channel_isolate_channel-library.html">isolate_channel</a></li>
+          <li><a href="package-stream_channel_stream_channel/package-stream_channel_stream_channel-library.html">stream_channel</a></li>
+          <li class="section-title">string_scanner</li>
+          <li><a href="package-string_scanner_string_scanner/package-string_scanner_string_scanner-library.html">string_scanner</a></li>
+          <li class="section-title">term_glyph</li>
+          <li><a href="package-term_glyph_term_glyph/package-term_glyph_term_glyph-library.html">term_glyph</a></li>
+          <li class="section-title">test_api</li>
+          <li><a href="package-test_api_backend/package-test_api_backend-library.html">backend</a></li>
+          <li><a href="package-test_api_test_api/package-test_api_test_api-library.html">test_api</a></li>
+          <li class="section-title">typed_data</li>
+          <li><a href="typed_data/typed_data-library.html">typed_data</a></li>
+          <li><a href="typed_data.typed_buffers/typed_data.typed_buffers-library.html">typed_data.typed_buffers</a></li>
+          <li class="section-title">vector_math</li>
+          <li><a href="package-vector_math_hash/package-vector_math_hash-library.html">hash</a></li>
+          <li><a href="vector_math/vector_math-library.html">vector_math</a></li>
+          <li><a href="vector_math_64/vector_math_64-library.html">vector_math_64</a></li>
+          <li><a href="vector_math_geometry/vector_math_geometry-library.html">vector_math_geometry</a></li>
+          <li><a href="vector_math_lists/vector_math_lists-library.html">vector_math_lists</a></li>
+          <li><a href="vector_math_operations/vector_math_operations-library.html">vector_math_operations</a></li>
+          <li class="section-title">web_socket_channel</li>
+          <li><a href="package-web_socket_channel_web_socket_channel/package-web_socket_channel_web_socket_channel-library.html">web_socket_channel</a></li>
+          <li><a href="web_socket_channel.io/web_socket_channel.io-library.html">web_socket_channel.io</a></li>
+          <li><a href="web_socket_channel.status/web_socket_channel.status-library.html">web_socket_channel.status</a></li>
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><a class="dashingAutolink" name="autolink-22470"></a><a class="dashAnchor" name="//apple_ref/cpp/Library/async"></a><span class="kind-library">async</span> library </h1></div>
+
+    
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="AsyncCache">
+          <span class="name "><a href="package-async_async/AsyncCache-class.html">AsyncCache</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Runs asynchronous functions and caches the result for a period of time. <a href="package-async_async/AsyncCache-class.html">[...]</a>
+        </dd>
+        <dt id="AsyncMemoizer">
+          <span class="name "><a href="package-async_async/AsyncMemoizer-class.html">AsyncMemoizer</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A class for running an asynchronous function exactly once and caching its
+result. <a href="package-async_async/AsyncMemoizer-class.html">[...]</a>
+        </dd>
+        <dt id="CancelableCompleter">
+          <span class="name "><a href="package-async_async/CancelableCompleter-class.html">CancelableCompleter</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A completer for a <a href="package-async_async/CancelableOperation-class.html">CancelableOperation</a>.
+        </dd>
+        <dt id="CancelableOperation">
+          <span class="name "><a href="package-async_async/CancelableOperation-class.html">CancelableOperation</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          An asynchronous operation that can be cancelled. <a href="package-async_async/CancelableOperation-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingEventSink">
+          <span class="name "><a href="package-async_async/DelegatingEventSink-class.html">DelegatingEventSink</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around an <a href="dart-async/EventSink-class.html">EventSink</a>. <a href="package-async_async/DelegatingEventSink-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingFuture">
+          <span class="name "><a href="package-async_async/DelegatingFuture-class.html">DelegatingFuture</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A wrapper that forwards calls to a <a href="dart-async/Future-class.html">Future</a>.
+        </dd>
+        <dt id="DelegatingSink">
+          <span class="name "><a href="package-async_async/DelegatingSink-class.html">DelegatingSink</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around a <a href="dart-core/Sink-class.html">Sink</a>. <a href="package-async_async/DelegatingSink-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingStream">
+          <span class="name "><a href="package-async_async/DelegatingStream-class.html">DelegatingStream</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around a <a href="dart-async/Stream-class.html">Stream</a>. <a href="package-async_async/DelegatingStream-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingStreamConsumer">
+          <span class="name "><a href="package-async_async/DelegatingStreamConsumer-class.html">DelegatingStreamConsumer</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around a <a href="dart-async/StreamConsumer-class.html">StreamConsumer</a>. <a href="package-async_async/DelegatingStreamConsumer-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingStreamSink">
+          <span class="name "><a href="package-async_async/DelegatingStreamSink-class.html">DelegatingStreamSink</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around a <a href="dart-async/StreamSink-class.html">StreamSink</a>. <a href="package-async_async/DelegatingStreamSink-class.html">[...]</a>
+        </dd>
+        <dt id="DelegatingStreamSubscription">
+          <span class="name "><a href="package-async_async/DelegatingStreamSubscription-class.html">DelegatingStreamSubscription</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          Simple delegating wrapper around a <a href="dart-async/StreamSubscription-class.html">StreamSubscription</a>. <a href="package-async_async/DelegatingStreamSubscription-class.html">[...]</a>
+        </dd>
+        <dt id="ErrorResult">
+          <span class="name "><a href="package-async_async/ErrorResult-class.html">ErrorResult</a></span>         
+        </dt>
+        <dd>
+          A result representing a thrown error.
+        </dd>
+        <dt id="FutureGroup">
+          <span class="name "><a href="package-async_async/FutureGroup-class.html">FutureGroup</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A collection of futures waits until all added <a href="dart-async/Future-class.html">Future</a>s complete. <a href="package-async_async/FutureGroup-class.html">[...]</a>
+        </dd>
+        <dt id="LazyStream">
+          <span class="name "><a href="package-async_async/LazyStream-class.html">LazyStream</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="dart-async/Stream-class.html">Stream</a> wrapper that forwards to another <a href="dart-async/Stream-class.html">Stream</a> that&#39;s initialized
+lazily. <a href="package-async_async/LazyStream-class.html">[...]</a>
+        </dd>
+        <dt id="NullStreamSink">
+          <span class="name "><a href="package-async_async/NullStreamSink-class.html">NullStreamSink</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="dart-async/StreamSink-class.html">StreamSink</a> that discards all events. <a href="package-async_async/NullStreamSink-class.html">[...]</a>
+        </dd>
+        <dt id="RestartableTimer">
+          <span class="name "><a href="package-async_async/RestartableTimer-class.html">RestartableTimer</a></span>         
+        </dt>
+        <dd>
+          A non-periodic timer that can be restarted any number of times. <a href="package-async_async/RestartableTimer-class.html">[...]</a>
+        </dd>
+        <dt id="Result">
+          <span class="name "><a href="package-async_async/Result-class.html">Result</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          The result of a computation. <a href="package-async_async/Result-class.html">[...]</a>
+        </dd>
+        <dt id="ResultFuture">
+          <span class="name "><a href="package-async_async/ResultFuture-class.html">ResultFuture</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="dart-async/Future-class.html">Future</a> wrapper that provides synchronous access to the result of the
+wrapped <a href="dart-async/Future-class.html">Future</a> once it&#39;s completed.
+        </dd>
+        <dt id="SingleSubscriptionTransformer">
+          <span class="name "><a href="package-async_async/SingleSubscriptionTransformer-class.html">SingleSubscriptionTransformer</a><span class="signature">&lt;<wbr/><span class="type-parameter">S</span>, <span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A transformer that converts a broadcast stream into a single-subscription
+stream. <a href="package-async_async/SingleSubscriptionTransformer-class.html">[...]</a>
+        </dd>
+        <dt id="StreamCompleter">
+          <span class="name "><a href="package-async_async/StreamCompleter-class.html">StreamCompleter</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A single-subscription <a href="package-async_async/StreamCompleter/stream.html">stream</a> where the contents are provided later. <a href="package-async_async/StreamCompleter-class.html">[...]</a>
+        </dd>
+        <dt id="StreamGroup">
+          <span class="name "><a href="package-async_async/StreamGroup-class.html">StreamGroup</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A collection of streams whose events are unified and sent through a central
+stream. <a href="package-async_async/StreamGroup-class.html">[...]</a>
+        </dd>
+        <dt id="StreamQueue">
+          <span class="name "><a href="package-async_async/StreamQueue-class.html">StreamQueue</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          An asynchronous pull-based interface for accessing stream events. <a href="package-async_async/StreamQueue-class.html">[...]</a>
+        </dd>
+        <dt id="StreamQueueTransaction">
+          <span class="name "><a href="package-async_async/StreamQueueTransaction-class.html">StreamQueueTransaction</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A transaction on a <a href="package-async_async/StreamQueue-class.html">StreamQueue</a>, created by <a href="package-async_async/StreamQueue/startTransaction.html">StreamQueue.startTransaction</a>. <a href="package-async_async/StreamQueueTransaction-class.html">[...]</a>
+        </dd>
+        <dt id="StreamSinkCompleter">
+          <span class="name "><a href="package-async_async/StreamSinkCompleter-class.html">StreamSinkCompleter</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="package-async_async/StreamSinkCompleter/sink.html">sink</a> where the destination is provided later. <a href="package-async_async/StreamSinkCompleter-class.html">[...]</a>
+        </dd>
+        <dt id="StreamSinkTransformer">
+          <span class="name "><a href="package-async_async/StreamSinkTransformer-class.html">StreamSinkTransformer</a><span class="signature">&lt;<wbr/><span class="type-parameter">S</span>, <span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="package-async_async/StreamSinkTransformer-class.html">StreamSinkTransformer</a> transforms the events being passed to a sink. <a href="package-async_async/StreamSinkTransformer-class.html">[...]</a>
+        </dd>
+        <dt id="StreamSplitter">
+          <span class="name "><a href="package-async_async/StreamSplitter-class.html">StreamSplitter</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A class that splits a single source stream into an arbitrary number of
+(single-subscription) streams (called &#34;branch&#34;) that emit the same events. <a href="package-async_async/StreamSplitter-class.html">[...]</a>
+        </dd>
+        <dt id="StreamZip">
+          <span class="name "><a href="package-async_async/StreamZip-class.html">StreamZip</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A stream that combines the values of other streams. <a href="package-async_async/StreamZip-class.html">[...]</a>
+        </dd>
+        <dt id="SubscriptionStream">
+          <span class="name "><a href="package-async_async/SubscriptionStream-class.html">SubscriptionStream</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A <a href="dart-async/Stream-class.html">Stream</a> adapter for a <a href="dart-async/StreamSubscription-class.html">StreamSubscription</a>. <a href="package-async_async/SubscriptionStream-class.html">[...]</a>
+        </dd>
+        <dt id="ValueResult">
+          <span class="name "><a href="package-async_async/ValueResult-class.html">ValueResult</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A result representing a returned value.
+        </dd>
+      </dl>
+    </section>
+
+
+
+
+    <section class="summary offset-anchor" id="functions">
+      <h2>Functions</h2>
+
+      <dl class="callables">
+        <dt id="collectBytes" class="callable">
+          <span class="name"><a href="package-async_async/collectBytes.html">collectBytes</a></span><span class="signature">(<wbr/><span class="parameter" id="collectBytes-param-source"><span class="type-annotation"><a href="dart-async/Stream-class.html">Stream</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/List-class.html">List</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/int-class.html">int</a></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">source</span></span>)
+            <span class="returntype parameter">&rarr; <a href="dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-typed_data/Uint8List-class.html">Uint8List</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Collects an asynchronous sequence of byte lists into a single list of bytes. <a href="package-async_async/collectBytes.html">[...]</a>
+                  
+</dd>
+        <dt id="collectBytesCancelable" class="callable">
+          <span class="name"><a href="package-async_async/collectBytesCancelable.html">collectBytesCancelable</a></span><span class="signature">(<wbr/><span class="parameter" id="collectBytesCancelable-param-source"><span class="type-annotation"><a href="dart-async/Stream-class.html">Stream</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/List-class.html">List</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-core/int-class.html">int</a></span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">source</span></span>)
+            <span class="returntype parameter">&rarr; <a href="package-async_async/CancelableOperation-class.html">CancelableOperation</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-typed_data/Uint8List-class.html">Uint8List</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Collects an asynchronous sequence of byte lists into a single list of bytes. <a href="package-async_async/collectBytesCancelable.html">[...]</a>
+                  
+</dd>
+        <dt id="subscriptionTransformer" class="callable">
+          <span class="name"><a href="package-async_async/subscriptionTransformer.html">subscriptionTransformer</a></span><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr/>{<span class="parameter" id="subscriptionTransformer-param-handleCancel"><span class="type-annotation"><a href="dart-async/Future-class.html">Future</a></span> <span class="parameter-name">handleCancel</span>(<span class="parameter" id="handleCancel-param-inner"><span class="type-annotation"><a href="dart-async/StreamSubscription-class.html">StreamSubscription</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">inner</span></span>), </span> <span class="parameter" id="subscriptionTransformer-param-handlePause"><span class="type-annotation">void</span> <span class="parameter-name">handlePause</span>(<span class="parameter" id="handlePause-param-inner"><span class="type-annotation"><a href="dart-async/StreamSubscription-class.html">StreamSubscription</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">inner</span></span>), </span> <span class="parameter" id="subscriptionTransformer-param-handleResume"><span class="type-annotation">void</span> <span class="parameter-name">handleResume</span>(<span class="parameter" id="handleResume-param-inner"><span class="type-annotation"><a href="dart-async/StreamSubscription-class.html">StreamSubscription</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">inner</span></span>)</span> })
+            <span class="returntype parameter">&rarr; <a href="dart-async/StreamTransformer-class.html">StreamTransformer</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>, <span class="type-parameter">T</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Creates a <a href="dart-async/StreamTransformer-class.html">StreamTransformer</a> that modifies the behavior of subscriptions to
+a stream. <a href="package-async_async/subscriptionTransformer.html">[...]</a>
+                  
+</dd>
+        <dt id="typedStreamTransformer" class="callable">
+          <span class="name"><a href="package-async_async/typedStreamTransformer.html">typedStreamTransformer</a></span><span class="signature">&lt;<wbr/><span class="type-parameter">S</span>, <span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr/><span class="parameter" id="typedStreamTransformer-param-transformer"><span class="type-annotation"><a href="dart-async/StreamTransformer-class.html">StreamTransformer</a></span> <span class="parameter-name">transformer</span></span>)
+            <span class="returntype parameter">&rarr; <a href="dart-async/StreamTransformer-class.html">StreamTransformer</a><span class="signature">&lt;<wbr/><span class="type-parameter">S</span>, <span class="type-parameter">T</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Creates a wrapper that coerces the type of <code>transformer</code>. <a href="package-async_async/typedStreamTransformer.html">[...]</a>
+                  
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <h5>async library</h5>
+    <ol>
+      <li class="section-title"><a href="package-async_async/package-async_async-library.html#classes">Classes</a></li>
+      <li><a href="package-async_async/AsyncCache-class.html">AsyncCache</a></li>
+      <li><a href="package-async_async/AsyncMemoizer-class.html">AsyncMemoizer</a></li>
+      <li><a href="package-async_async/CancelableCompleter-class.html">CancelableCompleter</a></li>
+      <li><a href="package-async_async/CancelableOperation-class.html">CancelableOperation</a></li>
+      <li><a href="package-async_async/DelegatingEventSink-class.html">DelegatingEventSink</a></li>
+      <li><a href="package-async_async/DelegatingFuture-class.html">DelegatingFuture</a></li>
+      <li><a href="package-async_async/DelegatingSink-class.html">DelegatingSink</a></li>
+      <li><a href="package-async_async/DelegatingStream-class.html">DelegatingStream</a></li>
+      <li><a href="package-async_async/DelegatingStreamConsumer-class.html">DelegatingStreamConsumer</a></li>
+      <li><a href="package-async_async/DelegatingStreamSink-class.html">DelegatingStreamSink</a></li>
+      <li><a href="package-async_async/DelegatingStreamSubscription-class.html">DelegatingStreamSubscription</a></li>
+      <li><a href="package-async_async/ErrorResult-class.html">ErrorResult</a></li>
+      <li><a href="package-async_async/FutureGroup-class.html">FutureGroup</a></li>
+      <li><a href="package-async_async/LazyStream-class.html">LazyStream</a></li>
+      <li><a href="package-async_async/NullStreamSink-class.html">NullStreamSink</a></li>
+      <li><a href="package-async_async/RestartableTimer-class.html">RestartableTimer</a></li>
+      <li><a href="package-async_async/Result-class.html">Result</a></li>
+      <li><a href="package-async_async/ResultFuture-class.html">ResultFuture</a></li>
+      <li><a href="package-async_async/SingleSubscriptionTransformer-class.html">SingleSubscriptionTransformer</a></li>
+      <li><a href="package-async_async/StreamCompleter-class.html">StreamCompleter</a></li>
+      <li><a href="package-async_async/StreamGroup-class.html">StreamGroup</a></li>
+      <li><a href="package-async_async/StreamQueue-class.html">StreamQueue</a></li>
+      <li><a href="package-async_async/StreamQueueTransaction-class.html">StreamQueueTransaction</a></li>
+      <li><a href="package-async_async/StreamSinkCompleter-class.html">StreamSinkCompleter</a></li>
+      <li><a href="package-async_async/StreamSinkTransformer-class.html">StreamSinkTransformer</a></li>
+      <li><a href="package-async_async/StreamSplitter-class.html">StreamSplitter</a></li>
+      <li><a href="package-async_async/StreamZip-class.html">StreamZip</a></li>
+      <li><a href="package-async_async/SubscriptionStream-class.html">SubscriptionStream</a></li>
+      <li><a href="package-async_async/ValueResult-class.html">ValueResult</a></li>
+    
+    
+    
+    
+      <li class="section-title"><a href="package-async_async/package-async_async-library.html#functions">Functions</a></li>
+      <li><a href="package-async_async/collectBytes.html">collectBytes</a></li>
+      <li><a href="package-async_async/collectBytesCancelable.html">collectBytesCancelable</a></li>
+      <li><a href="package-async_async/subscriptionTransformer.html">subscriptionTransformer</a></li>
+      <li><a href="package-async_async/typedStreamTransformer.html">typedStreamTransformer</a></li>
+    
+    
+    
+    </ol>
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

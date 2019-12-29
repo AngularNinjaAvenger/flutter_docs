@@ -1,0 +1,977 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="services library API docs, for the Dart programming language."/>
+  <title>services library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href=".."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li class="self-crumb">services library</li>
+  </ol>
+  <div class="self-name">services</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li class="self-crumb">services library</li>
+    </ol>
+    
+    <h5><span class="package-name">Flutter</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="animation/animation-library.html">animation</a></li>
+          <li><a href="cupertino/cupertino-library.html">cupertino</a></li>
+          <li><a href="foundation/foundation-library.html">foundation</a></li>
+          <li><a href="gestures/gestures-library.html">gestures</a></li>
+          <li><a href="material/material-library.html">material</a></li>
+          <li><a href="painting/painting-library.html">painting</a></li>
+          <li><a href="physics/physics-library.html">physics</a></li>
+          <li><a href="rendering/rendering-library.html">rendering</a></li>
+          <li><a href="scheduler/scheduler-library.html">scheduler</a></li>
+          <li><a href="semantics/semantics-library.html">semantics</a></li>
+          <li><a href="services/services-library.html">services</a></li>
+          <li><a href="widgets/widgets-library.html">widgets</a></li>
+          <li class="section-title">Dart</li>
+          <li><a href="dart-ui/dart-ui-library.html">dart:ui</a></li>
+          <li class="section-subtitle">Core</li>
+            <li class="section-subitem"><a href="dart-async/dart-async-library.html">dart:async</a></li>
+            <li class="section-subitem"><a href="dart-collection/dart-collection-library.html">dart:collection</a></li>
+            <li class="section-subitem"><a href="dart-convert/dart-convert-library.html">dart:convert</a></li>
+            <li class="section-subitem"><a href="dart-core/dart-core-library.html">dart:core</a></li>
+            <li class="section-subitem"><a href="dart-developer/dart-developer-library.html">dart:developer</a></li>
+            <li class="section-subitem"><a href="dart-math/dart-math-library.html">dart:math</a></li>
+            <li class="section-subitem"><a href="dart-typed_data/dart-typed_data-library.html">dart:typed_data</a></li>
+          <li class="section-subtitle">VM</li>
+            <li class="section-subitem"><a href="dart-io/dart-io-library.html">dart:io</a></li>
+            <li class="section-subitem"><a href="dart-isolate/dart-isolate-library.html">dart:isolate</a></li>
+          <li class="section-title">platform_integration</li>
+          <li><a href="Android/Android-library.html">Android</a></li>
+          <li><a href="iOS/iOS-library.html">iOS</a></li>
+          <li class="section-title">flutter_test</li>
+          <li><a href="flutter_test/flutter_test-library.html">flutter_test</a></li>
+          <li class="section-title">flutter_driver</li>
+          <li><a href="flutter_driver/flutter_driver-library.html">flutter_driver</a></li>
+          <li><a href="flutter_driver_extension/flutter_driver_extension-library.html">flutter_driver_extension</a></li>
+          <li class="section-title">flutter_localizations</li>
+          <li><a href="flutter_localizations/flutter_localizations-library.html">flutter_localizations</a></li>
+          <li class="section-title">async</li>
+          <li><a href="package-async_async/package-async_async-library.html">async</a></li>
+          <li class="section-title">boolean_selector</li>
+          <li><a href="package-boolean_selector_boolean_selector/package-boolean_selector_boolean_selector-library.html">boolean_selector</a></li>
+          <li class="section-title">charcode</li>
+          <li><a href="charcode/charcode-library.html">charcode</a></li>
+          <li><a href="charcode.ascii.dollar_lowercase/charcode.ascii.dollar_lowercase-library.html">charcode.ascii.dollar_lowercase</a></li>
+          <li><a href="charcode.htmlentity.dollar_lowercase/charcode.htmlentity.dollar_lowercase-library.html">charcode.htmlentity.dollar_lowercase</a></li>
+          <li class="section-title">collection</li>
+          <li><a href="package-collection_collection/package-collection_collection-library.html">collection</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.algorithms/dart.pkg.collection.algorithms-library.html">dart.pkg.collection.algorithms</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.equality/dart.pkg.collection.equality-library.html">dart.pkg.collection.equality</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.iterable_zip/dart.pkg.collection.iterable_zip-library.html">dart.pkg.collection.iterable_zip</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.priority_queue/dart.pkg.collection.priority_queue-library.html">dart.pkg.collection.priority_queue</a></li>
+          <li><a class="deprecated" href="dart.pkg.collection.wrappers/dart.pkg.collection.wrappers-library.html">dart.pkg.collection.wrappers</a></li>
+          <li class="section-title">convert</li>
+          <li><a href="convert/convert-library.html">convert</a></li>
+          <li class="section-title">crypto</li>
+          <li><a href="package-crypto_crypto/package-crypto_crypto-library.html">crypto</a></li>
+          <li class="section-title">file</li>
+          <li><a href="package-file_chroot/package-file_chroot-library.html">chroot</a></li>
+          <li><a href="package-file_file/package-file_file-library.html">file</a></li>
+          <li><a href="package-file_local/package-file_local-library.html">local</a></li>
+          <li><a href="package-file_memory/package-file_memory-library.html">memory</a></li>
+          <li><a href="package-file_record_replay/package-file_record_replay-library.html">record_replay</a></li>
+          <li class="section-title">intl</li>
+          <li><a href="package-intl_date_symbol_data_custom/package-intl_date_symbol_data_custom-library.html">date_symbol_data_custom</a></li>
+          <li><a href="date_symbol_data_file/date_symbol_data_file-library.html">date_symbol_data_file</a></li>
+          <li><a href="date_symbol_data_http_request/date_symbol_data_http_request-library.html">date_symbol_data_http_request</a></li>
+          <li><a href="date_symbol_data_local/date_symbol_data_local-library.html">date_symbol_data_local</a></li>
+          <li><a href="date_symbols/date_symbols-library.html">date_symbols</a></li>
+          <li><a href="date_time_patterns/date_time_patterns-library.html">date_time_patterns</a></li>
+          <li><a href="intl/intl-library.html">intl</a></li>
+          <li><a href="intl_standalone/intl_standalone-library.html">intl_standalone</a></li>
+          <li><a href="message_lookup_by_library/message_lookup_by_library-library.html">message_lookup_by_library</a></li>
+          <li><a href="number_symbol_data/number_symbol_data-library.html">number_symbol_data</a></li>
+          <li><a href="number_symbols/number_symbols-library.html">number_symbols</a></li>
+          <li class="section-title">json_rpc_2</li>
+          <li><a href="package-json_rpc_2_error_code/package-json_rpc_2_error_code-library.html">error_code</a></li>
+          <li><a href="package-json_rpc_2_json_rpc_2/package-json_rpc_2_json_rpc_2-library.html">json_rpc_2</a></li>
+          <li class="section-title">matcher</li>
+          <li><a href="package-matcher_matcher/package-matcher_matcher-library.html">matcher</a></li>
+          <li class="section-title">meta</li>
+          <li><a href="meta/meta-library.html">meta</a></li>
+          <li><a href="meta_dart2js/meta_dart2js-library.html">meta_dart2js</a></li>
+          <li class="section-title">path</li>
+          <li><a href="package-path_path/package-path_path-library.html">path</a></li>
+          <li class="section-title">pedantic</li>
+          <li><a href="package-pedantic_pedantic/package-pedantic_pedantic-library.html">pedantic</a></li>
+          <li class="section-title">platform</li>
+          <li><a href="package-platform_platform/package-platform_platform-library.html">platform</a></li>
+          <li class="section-title">process</li>
+          <li><a href="package-process_process/package-process_process-library.html">process</a></li>
+          <li><a href="package-process_record_replay/package-process_record_replay-library.html">record_replay</a></li>
+          <li class="section-title">pub_semver</li>
+          <li><a href="package-pub_semver_pub_semver/package-pub_semver_pub_semver-library.html">pub_semver</a></li>
+          <li class="section-title">quiver</li>
+          <li><a href="quiver.async/quiver.async-library.html">quiver.async</a></li>
+          <li><a href="quiver.cache/quiver.cache-library.html">quiver.cache</a></li>
+          <li><a href="quiver.check/quiver.check-library.html">quiver.check</a></li>
+          <li><a href="quiver.collection/quiver.collection-library.html">quiver.collection</a></li>
+          <li><a href="quiver.core/quiver.core-library.html">quiver.core</a></li>
+          <li><a href="quiver.iterables/quiver.iterables-library.html">quiver.iterables</a></li>
+          <li><a href="quiver.pattern/quiver.pattern-library.html">quiver.pattern</a></li>
+          <li><a href="quiver.strings/quiver.strings-library.html">quiver.strings</a></li>
+          <li><a href="quiver.testing.async/quiver.testing.async-library.html">quiver.testing.async</a></li>
+          <li><a href="quiver.testing.equality/quiver.testing.equality-library.html">quiver.testing.equality</a></li>
+          <li><a href="quiver.testing.runtime/quiver.testing.runtime-library.html">quiver.testing.runtime</a></li>
+          <li><a href="quiver.testing.time/quiver.testing.time-library.html">quiver.testing.time</a></li>
+          <li><a href="quiver.time/quiver.time-library.html">quiver.time</a></li>
+          <li class="section-title">source_span</li>
+          <li><a href="package-source_span_source_span/package-source_span_source_span-library.html">source_span</a></li>
+          <li class="section-title">stack_trace</li>
+          <li><a href="package-stack_trace_stack_trace/package-stack_trace_stack_trace-library.html">stack_trace</a></li>
+          <li class="section-title">stream_channel</li>
+          <li><a href="package-stream_channel_isolate_channel/package-stream_channel_isolate_channel-library.html">isolate_channel</a></li>
+          <li><a href="package-stream_channel_stream_channel/package-stream_channel_stream_channel-library.html">stream_channel</a></li>
+          <li class="section-title">string_scanner</li>
+          <li><a href="package-string_scanner_string_scanner/package-string_scanner_string_scanner-library.html">string_scanner</a></li>
+          <li class="section-title">term_glyph</li>
+          <li><a href="package-term_glyph_term_glyph/package-term_glyph_term_glyph-library.html">term_glyph</a></li>
+          <li class="section-title">test_api</li>
+          <li><a href="package-test_api_backend/package-test_api_backend-library.html">backend</a></li>
+          <li><a href="package-test_api_test_api/package-test_api_test_api-library.html">test_api</a></li>
+          <li class="section-title">typed_data</li>
+          <li><a href="typed_data/typed_data-library.html">typed_data</a></li>
+          <li><a href="typed_data.typed_buffers/typed_data.typed_buffers-library.html">typed_data.typed_buffers</a></li>
+          <li class="section-title">vector_math</li>
+          <li><a href="package-vector_math_hash/package-vector_math_hash-library.html">hash</a></li>
+          <li><a href="vector_math/vector_math-library.html">vector_math</a></li>
+          <li><a href="vector_math_64/vector_math_64-library.html">vector_math_64</a></li>
+          <li><a href="vector_math_geometry/vector_math_geometry-library.html">vector_math_geometry</a></li>
+          <li><a href="vector_math_lists/vector_math_lists-library.html">vector_math_lists</a></li>
+          <li><a href="vector_math_operations/vector_math_operations-library.html">vector_math_operations</a></li>
+          <li class="section-title">web_socket_channel</li>
+          <li><a href="package-web_socket_channel_web_socket_channel/package-web_socket_channel_web_socket_channel-library.html">web_socket_channel</a></li>
+          <li><a href="web_socket_channel.io/web_socket_channel.io-library.html">web_socket_channel.io</a></li>
+          <li><a href="web_socket_channel.status/web_socket_channel.status-library.html">web_socket_channel.status</a></li>
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div>  <div id="external-links" class="btn-group"><a title="View source code" class="source-link" href="https://github.com/flutter/flutter/blob/master/packages/flutter/lib/services.dart#L11"><i class="material-icons">description</i></a></div>
+<h1><a class="dashingAutolink" name="autolink-30186"></a><a class="dashAnchor" name="//apple_ref/cpp/Library/services"></a><span class="kind-library">services</span> library </h1></div>
+
+    <section class="desc markdown">
+      <p>Platform services exposed to Flutter apps.</p>
+<p>To use, import <code>package:flutter/services.dart</code>.</p>
+<p>This library depends only on core Dart libraries and the <code>foundation</code>
+library.</p>
+    </section>
+    
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="AndroidMotionEvent">
+          <span class="name "><a href="services/AndroidMotionEvent-class.html">AndroidMotionEvent</a></span>         
+        </dt>
+        <dd>
+          A Dart version of Android&#39;s <a href="https://developer.android.com/reference/android/view/MotionEvent">MotionEvent</a>.
+        </dd>
+        <dt id="AndroidPointerCoords">
+          <span class="name "><a href="services/AndroidPointerCoords-class.html">AndroidPointerCoords</a></span>         
+        </dt>
+        <dd>
+          Position information for an Android pointer. <a href="services/AndroidPointerCoords-class.html">[...]</a>
+        </dd>
+        <dt id="AndroidPointerProperties">
+          <span class="name "><a href="services/AndroidPointerProperties-class.html">AndroidPointerProperties</a></span>         
+        </dt>
+        <dd>
+          Properties of an Android pointer. <a href="services/AndroidPointerProperties-class.html">[...]</a>
+        </dd>
+        <dt id="AndroidViewController">
+          <span class="name "><a href="services/AndroidViewController-class.html">AndroidViewController</a></span>         
+        </dt>
+        <dd>
+          Controls an Android view. <a href="services/AndroidViewController-class.html">[...]</a>
+        </dd>
+        <dt id="ApplicationSwitcherDescription">
+          <span class="name "><a href="services/ApplicationSwitcherDescription-class.html">ApplicationSwitcherDescription</a></span>         
+        </dt>
+        <dd>
+          Specifies a description of the application that is pertinent to the
+embedder&#39;s application switcher (also known as &#34;recent tasks&#34;) user
+interface. <a href="services/ApplicationSwitcherDescription-class.html">[...]</a>
+        </dd>
+        <dt id="AssetBundle">
+          <span class="name "><a href="services/AssetBundle-class.html">AssetBundle</a></span>         
+        </dt>
+        <dd>
+          A collection of resources used by the application. <a href="services/AssetBundle-class.html">[...]</a>
+        </dd>
+        <dt id="BasicMessageChannel">
+          <span class="name "><a href="services/BasicMessageChannel-class.html">BasicMessageChannel</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A named channel for communicating with platform plugins using asynchronous
+message passing. <a href="services/BasicMessageChannel-class.html">[...]</a>
+        </dd>
+        <dt id="BinaryCodec">
+          <span class="name "><a href="services/BinaryCodec-class.html">BinaryCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MessageCodec-class.html">MessageCodec</a> with unencoded binary messages represented using <a href="dart-typed_data/ByteData-class.html">ByteData</a>. <a href="services/BinaryCodec-class.html">[...]</a>
+        </dd>
+        <dt id="BinaryMessages">
+          <span class="name deprecated"><a class="deprecated" href="services/BinaryMessages-class.html">BinaryMessages</a></span>         
+        </dt>
+        <dd>
+          Sends binary messages to and receives binary messages from platform plugins. <a href="services/BinaryMessages-class.html">[...]</a>
+        </dd>
+        <dt id="BinaryMessenger">
+          <span class="name "><a href="services/BinaryMessenger-class.html">BinaryMessenger</a></span>         
+        </dt>
+        <dd>
+          A messenger which sends binary data across the Flutter platform barrier. <a href="services/BinaryMessenger-class.html">[...]</a>
+        </dd>
+        <dt id="BlacklistingTextInputFormatter">
+          <span class="name "><a href="services/BlacklistingTextInputFormatter-class.html">BlacklistingTextInputFormatter</a></span>         
+        </dt>
+        <dd>
+          A <a href="services/TextInputFormatter-class.html">TextInputFormatter</a> that prevents the insertion of blacklisted
+characters patterns. <a href="services/BlacklistingTextInputFormatter-class.html">[...]</a>
+        </dd>
+        <dt id="ByteData">
+          <span class="name "><a href="dart-typed_data/ByteData-class.html">ByteData</a></span>         
+        </dt>
+        <dd>
+          A fixed-length, random-access sequence of bytes that also provides random
+and unaligned access to the fixed-width integers and floating point
+numbers represented by those bytes. <a href="dart-typed_data/ByteData-class.html">[...]</a>
+        </dd>
+        <dt id="CachingAssetBundle">
+          <span class="name "><a href="services/CachingAssetBundle-class.html">CachingAssetBundle</a></span>         
+        </dt>
+        <dd>
+          An <a href="services/AssetBundle-class.html">AssetBundle</a> that permanently caches string and structured resources
+that have been fetched. <a href="services/CachingAssetBundle-class.html">[...]</a>
+        </dd>
+        <dt id="Clipboard">
+          <span class="name "><a href="services/Clipboard-class.html">Clipboard</a></span>         
+        </dt>
+        <dd>
+          Utility methods for interacting with the system&#39;s clipboard.
+        </dd>
+        <dt id="ClipboardData">
+          <span class="name "><a href="services/ClipboardData-class.html">ClipboardData</a></span>         
+        </dt>
+        <dd>
+          Data stored on the system clipboard. <a href="services/ClipboardData-class.html">[...]</a>
+        </dd>
+        <dt id="EventChannel">
+          <span class="name "><a href="services/EventChannel-class.html">EventChannel</a></span>         
+        </dt>
+        <dd>
+          A named channel for communicating with platform plugins using event streams. <a href="services/EventChannel-class.html">[...]</a>
+        </dd>
+        <dt id="FontLoader">
+          <span class="name "><a href="services/FontLoader-class.html">FontLoader</a></span>         
+        </dt>
+        <dd>
+          A class that enables the dynamic loading of fonts at runtime. <a href="services/FontLoader-class.html">[...]</a>
+        </dd>
+        <dt id="GLFWKeyHelper">
+          <span class="name "><a href="services/GLFWKeyHelper-class.html">GLFWKeyHelper</a></span>         
+        </dt>
+        <dd>
+          Helper class that uses GLFW-specific key mappings.
+        </dd>
+        <dt id="HapticFeedback">
+          <span class="name "><a href="services/HapticFeedback-class.html">HapticFeedback</a></span>         
+        </dt>
+        <dd>
+          Allows access to the haptic feedback interface on the device. <a href="services/HapticFeedback-class.html">[...]</a>
+        </dd>
+        <dt id="JSONMessageCodec">
+          <span class="name "><a href="services/JSONMessageCodec-class.html">JSONMessageCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MessageCodec-class.html">MessageCodec</a> with UTF-8 encoded JSON messages. <a href="services/JSONMessageCodec-class.html">[...]</a>
+        </dd>
+        <dt id="JSONMethodCodec">
+          <span class="name "><a href="services/JSONMethodCodec-class.html">JSONMethodCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MethodCodec-class.html">MethodCodec</a> with UTF-8 encoded JSON method calls and result envelopes. <a href="services/JSONMethodCodec-class.html">[...]</a>
+        </dd>
+        <dt id="KeyboardKey">
+          <span class="name "><a href="services/KeyboardKey-class.html">KeyboardKey</a></span>         
+        </dt>
+        <dd>
+          A base class for all keyboard key types. <a href="services/KeyboardKey-class.html">[...]</a>
+        </dd>
+        <dt id="KeyHelper">
+          <span class="name "><a href="services/KeyHelper-class.html">KeyHelper</a></span>         
+        </dt>
+        <dd>
+          Abstract class for window-specific key mappings. <a href="services/KeyHelper-class.html">[...]</a>
+        </dd>
+        <dt id="LengthLimitingTextInputFormatter">
+          <span class="name "><a href="services/LengthLimitingTextInputFormatter-class.html">LengthLimitingTextInputFormatter</a></span>         
+        </dt>
+        <dd>
+          A <a href="services/TextInputFormatter-class.html">TextInputFormatter</a> that prevents the insertion of more characters
+(currently defined as Unicode scalar values) than allowed. <a href="services/LengthLimitingTextInputFormatter-class.html">[...]</a>
+        </dd>
+        <dt id="LogicalKeyboardKey">
+          <span class="name "><a href="services/LogicalKeyboardKey-class.html">LogicalKeyboardKey</a></span>         
+        </dt>
+        <dd>
+          A class with static values that describe the keys that are returned from
+<a href="services/RawKeyEvent/logicalKey.html">RawKeyEvent.logicalKey</a>. <a href="services/LogicalKeyboardKey-class.html">[...]</a>
+        </dd>
+        <dt id="MessageCodec">
+          <span class="name "><a href="services/MessageCodec-class.html">MessageCodec</a><span class="signature">&lt;<wbr/><span class="type-parameter">T</span>&gt;</span></span>         
+        </dt>
+        <dd>
+          A message encoding/decoding mechanism. <a href="services/MessageCodec-class.html">[...]</a>
+        </dd>
+        <dt id="MethodCall">
+          <span class="name "><a href="services/MethodCall-class.html">MethodCall</a></span>         
+        </dt>
+        <dd>
+          An command object representing the invocation of a named method.
+        </dd>
+        <dt id="MethodChannel">
+          <span class="name "><a href="services/MethodChannel-class.html">MethodChannel</a></span>         
+        </dt>
+        <dd>
+          A named channel for communicating with platform plugins using asynchronous
+method calls. <a href="services/MethodChannel-class.html">[...]</a>
+        </dd>
+        <dt id="MethodCodec">
+          <span class="name "><a href="services/MethodCodec-class.html">MethodCodec</a></span>         
+        </dt>
+        <dd>
+          A codec for method calls and enveloped results. <a href="services/MethodCodec-class.html">[...]</a>
+        </dd>
+        <dt id="NetworkAssetBundle">
+          <span class="name "><a href="services/NetworkAssetBundle-class.html">NetworkAssetBundle</a></span>         
+        </dt>
+        <dd>
+          An <a href="services/AssetBundle-class.html">AssetBundle</a> that loads resources over the network. <a href="services/NetworkAssetBundle-class.html">[...]</a>
+        </dd>
+        <dt id="OptionalMethodChannel">
+          <span class="name "><a href="services/OptionalMethodChannel-class.html">OptionalMethodChannel</a></span>         
+        </dt>
+        <dd>
+          A <a href="services/MethodChannel-class.html">MethodChannel</a> that ignores missing platform plugins. <a href="services/OptionalMethodChannel-class.html">[...]</a>
+        </dd>
+        <dt id="PhysicalKeyboardKey">
+          <span class="name "><a href="services/PhysicalKeyboardKey-class.html">PhysicalKeyboardKey</a></span>         
+        </dt>
+        <dd>
+          A class with static values that describe the keys that are returned from
+<a href="services/RawKeyEvent/physicalKey.html">RawKeyEvent.physicalKey</a>. <a href="services/PhysicalKeyboardKey-class.html">[...]</a>
+        </dd>
+        <dt id="PlatformAssetBundle">
+          <span class="name "><a href="services/PlatformAssetBundle-class.html">PlatformAssetBundle</a></span>         
+        </dt>
+        <dd>
+          An <a href="services/AssetBundle-class.html">AssetBundle</a> that loads resources using platform messages.
+        </dd>
+        <dt id="PlatformViewController">
+          <span class="name "><a href="services/PlatformViewController-class.html">PlatformViewController</a></span>         
+        </dt>
+        <dd>
+          An interface for a controlling a single platform view. <a href="services/PlatformViewController-class.html">[...]</a>
+        </dd>
+        <dt id="PlatformViewsRegistry">
+          <span class="name "><a href="services/PlatformViewsRegistry-class.html">PlatformViewsRegistry</a></span>         
+        </dt>
+        <dd>
+          A registry responsible for generating unique identifier for platform views. <a href="services/PlatformViewsRegistry-class.html">[...]</a>
+        </dd>
+        <dt id="PlatformViewsService">
+          <span class="name "><a href="services/PlatformViewsService-class.html">PlatformViewsService</a></span>         
+        </dt>
+        <dd>
+          Provides access to the platform views service. <a href="services/PlatformViewsService-class.html">[...]</a>
+        </dd>
+        <dt id="RawFloatingCursorPoint">
+          <span class="name "><a href="services/RawFloatingCursorPoint-class.html">RawFloatingCursorPoint</a></span>         
+        </dt>
+        <dd>
+          The current state and position of the floating cursor.
+        </dd>
+        <dt id="RawKeyboard">
+          <span class="name "><a href="services/RawKeyboard-class.html">RawKeyboard</a></span>         
+        </dt>
+        <dd>
+          An interface for listening to raw key events. <a href="services/RawKeyboard-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyDownEvent">
+          <span class="name "><a href="services/RawKeyDownEvent-class.html">RawKeyDownEvent</a></span>         
+        </dt>
+        <dd>
+          The user has pressed a key on the keyboard. <a href="services/RawKeyDownEvent-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEvent">
+          <span class="name "><a href="services/RawKeyEvent-class.html">RawKeyEvent</a></span>         
+        </dt>
+        <dd>
+          Defines the interface for raw key events. <a href="services/RawKeyEvent-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEventData">
+          <span class="name "><a href="services/RawKeyEventData-class.html">RawKeyEventData</a></span>         
+        </dt>
+        <dd>
+          Base class for platform-specific key event data. <a href="services/RawKeyEventData-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEventDataAndroid">
+          <span class="name "><a href="services/RawKeyEventDataAndroid-class.html">RawKeyEventDataAndroid</a></span>         
+        </dt>
+        <dd>
+          Platform-specific key event data for Android. <a href="services/RawKeyEventDataAndroid-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEventDataFuchsia">
+          <span class="name "><a href="services/RawKeyEventDataFuchsia-class.html">RawKeyEventDataFuchsia</a></span>         
+        </dt>
+        <dd>
+          Platform-specific key event data for Fuchsia. <a href="services/RawKeyEventDataFuchsia-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEventDataLinux">
+          <span class="name "><a href="services/RawKeyEventDataLinux-class.html">RawKeyEventDataLinux</a></span>         
+        </dt>
+        <dd>
+          Platform-specific key event data for Linux. <a href="services/RawKeyEventDataLinux-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyEventDataMacOs">
+          <span class="name "><a href="services/RawKeyEventDataMacOs-class.html">RawKeyEventDataMacOs</a></span>         
+        </dt>
+        <dd>
+          Platform-specific key event data for macOS. <a href="services/RawKeyEventDataMacOs-class.html">[...]</a>
+        </dd>
+        <dt id="RawKeyUpEvent">
+          <span class="name "><a href="services/RawKeyUpEvent-class.html">RawKeyUpEvent</a></span>         
+        </dt>
+        <dd>
+          The user has released a key on the keyboard. <a href="services/RawKeyUpEvent-class.html">[...]</a>
+        </dd>
+        <dt id="StandardMessageCodec">
+          <span class="name "><a href="services/StandardMessageCodec-class.html">StandardMessageCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MessageCodec-class.html">MessageCodec</a> using the Flutter standard binary encoding. <a href="services/StandardMessageCodec-class.html">[...]</a>
+        </dd>
+        <dt id="StandardMethodCodec">
+          <span class="name "><a href="services/StandardMethodCodec-class.html">StandardMethodCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MethodCodec-class.html">MethodCodec</a> using the Flutter standard binary encoding. <a href="services/StandardMethodCodec-class.html">[...]</a>
+        </dd>
+        <dt id="StringCodec">
+          <span class="name "><a href="services/StringCodec-class.html">StringCodec</a></span>         
+        </dt>
+        <dd>
+          <a href="services/MessageCodec-class.html">MessageCodec</a> with UTF-8 encoded String messages. <a href="services/StringCodec-class.html">[...]</a>
+        </dd>
+        <dt id="SystemChannels">
+          <span class="name "><a href="services/SystemChannels-class.html">SystemChannels</a></span>         
+        </dt>
+        <dd>
+          Platform channels used by the Flutter system.
+        </dd>
+        <dt id="SystemChrome">
+          <span class="name "><a href="services/SystemChrome-class.html">SystemChrome</a></span>         
+        </dt>
+        <dd>
+          Controls specific aspects of the operating system&#39;s graphical interface and
+how it interacts with the application.
+        </dd>
+        <dt id="SystemNavigator">
+          <span class="name "><a href="services/SystemNavigator-class.html">SystemNavigator</a></span>         
+        </dt>
+        <dd>
+          Controls specific aspects of the system navigation stack.
+        </dd>
+        <dt id="SystemSound">
+          <span class="name "><a href="services/SystemSound-class.html">SystemSound</a></span>         
+        </dt>
+        <dd>
+          Provides access to the library of short system specific sounds for common
+tasks.
+        </dd>
+        <dt id="SystemUiOverlayStyle">
+          <span class="name "><a href="services/SystemUiOverlayStyle-class.html">SystemUiOverlayStyle</a></span>         
+        </dt>
+        <dd>
+          Specifies a preference for the style of the system overlays. <a href="services/SystemUiOverlayStyle-class.html">[...]</a>
+        </dd>
+        <dt id="TextEditingValue">
+          <span class="name "><a href="services/TextEditingValue-class.html">TextEditingValue</a></span>         
+        </dt>
+        <dd>
+          The current text, selection, and composing state for editing a run of text.
+        </dd>
+        <dt id="TextInput">
+          <span class="name "><a href="services/TextInput-class.html">TextInput</a></span>         
+        </dt>
+        <dd>
+          An interface to the system&#39;s text input control.
+        </dd>
+        <dt id="TextInputClient">
+          <span class="name "><a href="services/TextInputClient-class.html">TextInputClient</a></span>         
+        </dt>
+        <dd>
+          An interface to receive information from <a href="services/TextInput-class.html">TextInput</a>. <a href="services/TextInputClient-class.html">[...]</a>
+        </dd>
+        <dt id="TextInputConfiguration">
+          <span class="name "><a href="services/TextInputConfiguration-class.html">TextInputConfiguration</a></span>         
+        </dt>
+        <dd>
+          Controls the visual appearance of the text input control. <a href="services/TextInputConfiguration-class.html">[...]</a>
+        </dd>
+        <dt id="TextInputConnection">
+          <span class="name "><a href="services/TextInputConnection-class.html">TextInputConnection</a></span>         
+        </dt>
+        <dd>
+          An interface for interacting with a text input control. <a href="services/TextInputConnection-class.html">[...]</a>
+        </dd>
+        <dt id="TextInputFormatter">
+          <span class="name "><a href="services/TextInputFormatter-class.html">TextInputFormatter</a></span>         
+        </dt>
+        <dd>
+          A <a href="services/TextInputFormatter-class.html">TextInputFormatter</a> can be optionally injected into an <a href="widgets/EditableText-class.html">EditableText</a>
+to provide as-you-type validation and formatting of the text being edited. <a href="services/TextInputFormatter-class.html">[...]</a>
+        </dd>
+        <dt id="TextInputType">
+          <span class="name "><a href="services/TextInputType-class.html">TextInputType</a></span>         
+        </dt>
+        <dd>
+          The type of information for which to optimize the text input control. <a href="services/TextInputType-class.html">[...]</a>
+        </dd>
+        <dt id="TextPosition">
+          <span class="name "><a href="dart-ui/TextPosition-class.html">TextPosition</a></span>         
+        </dt>
+        <dd>
+          A position in a string of text. <a href="dart-ui/TextPosition-class.html">[...]</a>
+        </dd>
+        <dt id="TextRange">
+          <span class="name "><a href="services/TextRange-class.html">TextRange</a></span>         
+        </dt>
+        <dd>
+          A range of characters in a string of text.
+        </dd>
+        <dt id="TextSelection">
+          <span class="name "><a href="services/TextSelection-class.html">TextSelection</a></span>         
+        </dt>
+        <dd>
+          A range of text that represents a selection.
+        </dd>
+        <dt id="TextSelectionDelegate">
+          <span class="name "><a href="services/TextSelectionDelegate-class.html">TextSelectionDelegate</a></span>         
+        </dt>
+        <dd>
+          An interface for manipulating the selection, to be used by the implementor
+of the toolbar widget.
+        </dd>
+        <dt id="UiKitViewController">
+          <span class="name "><a href="services/UiKitViewController-class.html">UiKitViewController</a></span>         
+        </dt>
+        <dd>
+          Controls an iOS UIView. <a href="services/UiKitViewController-class.html">[...]</a>
+        </dd>
+        <dt id="WhitelistingTextInputFormatter">
+          <span class="name "><a href="services/WhitelistingTextInputFormatter-class.html">WhitelistingTextInputFormatter</a></span>         
+        </dt>
+        <dd>
+          A <a href="services/TextInputFormatter-class.html">TextInputFormatter</a> that allows only the insertion of whitelisted
+characters patterns. <a href="services/WhitelistingTextInputFormatter-class.html">[...]</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="mixins">
+      <h2>Mixins</h2>
+
+      <dl>
+        <dt id="ServicesBinding">
+          <span class="name "><a href="services/ServicesBinding-mixin.html">ServicesBinding</a></span>         
+        </dt>
+        <dd>
+          Listens for platform messages and directs them to the <a href="services/defaultBinaryMessenger-constant.html">defaultBinaryMessenger</a>. <a href="services/ServicesBinding-mixin.html">[...]</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constants">
+      <h2>Constants</h2>
+
+      <dl class="properties">
+        <dt id="defaultBinaryMessenger" class="constant">
+          <span class="name "><a href="services/defaultBinaryMessenger-constant.html">defaultBinaryMessenger</a></span>
+          <span class="signature">&rarr; const <a href="services/BinaryMessenger-class.html">BinaryMessenger</a></span>
+                  </dt>
+        <dd>
+          The default instance of <a href="services/BinaryMessenger-class.html">BinaryMessenger</a>. <a href="services/defaultBinaryMessenger-constant.html">[...]</a>
+                  
+  <div>
+            <span class="signature"><code>const _DefaultBinaryMessenger._()</code></span>
+          </div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="platformViewsRegistry" class="property">
+          <span class="name"><a href="services/platformViewsRegistry.html">platformViewsRegistry</a></span>
+          <span class="signature">&rarr; <a href="services/PlatformViewsRegistry-class.html">PlatformViewsRegistry</a></span>         
+        </dt>
+        <dd>
+          The <a href="services/PlatformViewsRegistry-class.html">PlatformViewsRegistry</a> responsible for generating unique identifiers for platform views.
+                  <div class="features">final</div>
+</dd>
+        <dt id="rootBundle" class="property">
+          <span class="name"><a href="services/rootBundle.html">rootBundle</a></span>
+          <span class="signature">&rarr; <a href="services/AssetBundle-class.html">AssetBundle</a></span>         
+        </dt>
+        <dd>
+          The <a href="services/AssetBundle-class.html">AssetBundle</a> from which this application was loaded. <a href="services/rootBundle.html">[...]</a>
+                  <div class="features">final</div>
+</dd>
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="enums">
+      <h2>Enums</h2>
+
+      <dl>
+        <dt id="Brightness">
+          <span class="name "><a href="dart-ui/Brightness-class.html">Brightness</a></span>         
+        </dt>
+        <dd>
+          Describes the contrast of a theme or color palette.
+        </dd>
+        <dt id="DeviceOrientation">
+          <span class="name "><a href="services/DeviceOrientation-class.html">DeviceOrientation</a></span>         
+        </dt>
+        <dd>
+          Specifies a particular device orientation. <a href="services/DeviceOrientation-class.html">[...]</a>
+        </dd>
+        <dt id="FloatingCursorDragState">
+          <span class="name "><a href="services/FloatingCursorDragState-class.html">FloatingCursorDragState</a></span>         
+        </dt>
+        <dd>
+          A floating cursor state the user has induced by force pressing an iOS
+keyboard.
+        </dd>
+        <dt id="KeyboardSide">
+          <span class="name "><a href="services/KeyboardSide-class.html">KeyboardSide</a></span>         
+        </dt>
+        <dd>
+          An enum describing the side of the keyboard that a key is on, to allow
+discrimination between which key is pressed (e.g. the left or right SHIFT
+key). <a href="services/KeyboardSide-class.html">[...]</a>
+        </dd>
+        <dt id="ModifierKey">
+          <span class="name "><a href="services/ModifierKey-class.html">ModifierKey</a></span>         
+        </dt>
+        <dd>
+          An enum describing the type of modifier key that is being pressed. <a href="services/ModifierKey-class.html">[...]</a>
+        </dd>
+        <dt id="SystemSoundType">
+          <span class="name "><a href="services/SystemSoundType-class.html">SystemSoundType</a></span>         
+        </dt>
+        <dd>
+          A sound provided by the system.
+        </dd>
+        <dt id="SystemUiOverlay">
+          <span class="name "><a href="services/SystemUiOverlay-class.html">SystemUiOverlay</a></span>         
+        </dt>
+        <dd>
+          Specifies a system overlay at a particular location. <a href="services/SystemUiOverlay-class.html">[...]</a>
+        </dd>
+        <dt id="TextAffinity">
+          <span class="name "><a href="dart-ui/TextAffinity-class.html">TextAffinity</a></span>         
+        </dt>
+        <dd>
+          A way to disambiguate a <a href="dart-ui/TextPosition-class.html">TextPosition</a> when its offset could match two
+different locations in the rendered string. <a href="dart-ui/TextAffinity-class.html">[...]</a>
+        </dd>
+        <dt id="TextCapitalization">
+          <span class="name "><a href="services/TextCapitalization-class.html">TextCapitalization</a></span>         
+        </dt>
+        <dd>
+          Configures how the platform keyboard will select an uppercase or
+lowercase keyboard. <a href="services/TextCapitalization-class.html">[...]</a>
+        </dd>
+        <dt id="TextInputAction">
+          <span class="name "><a href="services/TextInputAction-class.html">TextInputAction</a></span>         
+        </dt>
+        <dd>
+          An action the user has requested the text input control to perform. <a href="services/TextInputAction-class.html">[...]</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="typedefs">
+      <h2>Typedefs</h2>
+
+      <dl class="callables">
+        <dt id="MessageHandler" class="callable">
+          <span class="name"><a href="services/MessageHandler.html">MessageHandler</a></span><span class="signature">(<wbr/><span class="parameter" id="MessageHandler-param-message"><span class="type-annotation"><a href="dart-typed_data/ByteData-class.html">ByteData</a></span> <span class="parameter-name">message</span></span>)
+            <span class="returntype parameter">&rarr; <a href="dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr/><span class="type-parameter"><a href="dart-typed_data/ByteData-class.html">ByteData</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          A function which takes a platform message and asynchronously returns an encoded response.
+                  
+</dd>
+        <dt id="PlatformViewCreatedCallback" class="callable">
+          <span class="name"><a href="services/PlatformViewCreatedCallback.html">PlatformViewCreatedCallback</a></span><span class="signature">(<wbr/><span class="parameter" id="PlatformViewCreatedCallback-param-id"><span class="type-annotation"><a href="dart-core/int-class.html">int</a></span> <span class="parameter-name">id</span></span>)
+            <span class="returntype parameter">&rarr; void</span>
+          </span>
+                  </dt>
+        <dd>
+          Callback signature for when a platform view was created. <a href="services/PlatformViewCreatedCallback.html">[...]</a>
+                  
+</dd>
+        <dt id="TextInputFormatFunction" class="callable">
+          <span class="name"><a href="services/TextInputFormatFunction.html">TextInputFormatFunction</a></span><span class="signature">(<wbr/><span class="parameter" id="TextInputFormatFunction-param-oldValue"><span class="type-annotation"><a href="services/TextEditingValue-class.html">TextEditingValue</a></span> <span class="parameter-name">oldValue</span>, </span> <span class="parameter" id="TextInputFormatFunction-param-newValue"><span class="type-annotation"><a href="services/TextEditingValue-class.html">TextEditingValue</a></span> <span class="parameter-name">newValue</span></span>)
+            <span class="returntype parameter">&rarr; <a href="services/TextEditingValue-class.html">TextEditingValue</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Function signature expected for creating custom <a href="services/TextInputFormatter-class.html">TextInputFormatter</a>
+shorthands via <a href="services/TextInputFormatter/withFunction.html">TextInputFormatter.withFunction</a>;
+                  
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="exceptions">
+      <h2>Exceptions / Errors</h2>
+
+      <dl>
+        <dt id="MissingPluginException">
+          <span class="name "><a class="dashingAutolink" name="autolink-30184"></a><a class="dashAnchor" name="//apple_ref/cpp/Exception/MissingPluginException"></a><a href="services/MissingPluginException-class.html">MissingPluginException</a></span>         
+        </dt>
+        <dd>
+          Thrown to indicate that a platform interaction failed to find a handling
+plugin. <a href="services/MissingPluginException-class.html">[...]</a>
+        </dd>
+        <dt id="PlatformException">
+          <span class="name "><a class="dashingAutolink" name="autolink-30185"></a><a class="dashAnchor" name="//apple_ref/cpp/Exception/PlatformException"></a><a href="services/PlatformException-class.html">PlatformException</a></span>         
+        </dt>
+        <dd>
+          Thrown to indicate that a platform interaction failed in the platform
+plugin. <a href="services/PlatformException-class.html">[...]</a>
+        </dd>
+      </dl>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <h5>services library</h5>
+    <ol>
+      <li class="section-title"><a href="services/services-library.html#classes">Classes</a></li>
+      <li><a href="services/AndroidMotionEvent-class.html">AndroidMotionEvent</a></li>
+      <li><a href="services/AndroidPointerCoords-class.html">AndroidPointerCoords</a></li>
+      <li><a href="services/AndroidPointerProperties-class.html">AndroidPointerProperties</a></li>
+      <li><a href="services/AndroidViewController-class.html">AndroidViewController</a></li>
+      <li><a href="services/ApplicationSwitcherDescription-class.html">ApplicationSwitcherDescription</a></li>
+      <li><a href="services/AssetBundle-class.html">AssetBundle</a></li>
+      <li><a href="services/BasicMessageChannel-class.html">BasicMessageChannel</a></li>
+      <li><a href="services/BinaryCodec-class.html">BinaryCodec</a></li>
+      <li><a class="deprecated" href="services/BinaryMessages-class.html">BinaryMessages</a></li>
+      <li><a href="services/BinaryMessenger-class.html">BinaryMessenger</a></li>
+      <li><a href="services/BlacklistingTextInputFormatter-class.html">BlacklistingTextInputFormatter</a></li>
+      <li><a href="dart-typed_data/ByteData-class.html">ByteData</a></li>
+      <li><a href="services/CachingAssetBundle-class.html">CachingAssetBundle</a></li>
+      <li><a href="services/Clipboard-class.html">Clipboard</a></li>
+      <li><a href="services/ClipboardData-class.html">ClipboardData</a></li>
+      <li><a href="services/EventChannel-class.html">EventChannel</a></li>
+      <li><a href="services/FontLoader-class.html">FontLoader</a></li>
+      <li><a href="services/GLFWKeyHelper-class.html">GLFWKeyHelper</a></li>
+      <li><a href="services/HapticFeedback-class.html">HapticFeedback</a></li>
+      <li><a href="services/JSONMessageCodec-class.html">JSONMessageCodec</a></li>
+      <li><a href="services/JSONMethodCodec-class.html">JSONMethodCodec</a></li>
+      <li><a href="services/KeyboardKey-class.html">KeyboardKey</a></li>
+      <li><a href="services/KeyHelper-class.html">KeyHelper</a></li>
+      <li><a href="services/LengthLimitingTextInputFormatter-class.html">LengthLimitingTextInputFormatter</a></li>
+      <li><a href="services/LogicalKeyboardKey-class.html">LogicalKeyboardKey</a></li>
+      <li><a href="services/MessageCodec-class.html">MessageCodec</a></li>
+      <li><a href="services/MethodCall-class.html">MethodCall</a></li>
+      <li><a href="services/MethodChannel-class.html">MethodChannel</a></li>
+      <li><a href="services/MethodCodec-class.html">MethodCodec</a></li>
+      <li><a href="services/NetworkAssetBundle-class.html">NetworkAssetBundle</a></li>
+      <li><a href="services/OptionalMethodChannel-class.html">OptionalMethodChannel</a></li>
+      <li><a href="services/PhysicalKeyboardKey-class.html">PhysicalKeyboardKey</a></li>
+      <li><a href="services/PlatformAssetBundle-class.html">PlatformAssetBundle</a></li>
+      <li><a href="services/PlatformViewController-class.html">PlatformViewController</a></li>
+      <li><a href="services/PlatformViewsRegistry-class.html">PlatformViewsRegistry</a></li>
+      <li><a href="services/PlatformViewsService-class.html">PlatformViewsService</a></li>
+      <li><a href="services/RawFloatingCursorPoint-class.html">RawFloatingCursorPoint</a></li>
+      <li><a href="services/RawKeyboard-class.html">RawKeyboard</a></li>
+      <li><a href="services/RawKeyDownEvent-class.html">RawKeyDownEvent</a></li>
+      <li><a href="services/RawKeyEvent-class.html">RawKeyEvent</a></li>
+      <li><a href="services/RawKeyEventData-class.html">RawKeyEventData</a></li>
+      <li><a href="services/RawKeyEventDataAndroid-class.html">RawKeyEventDataAndroid</a></li>
+      <li><a href="services/RawKeyEventDataFuchsia-class.html">RawKeyEventDataFuchsia</a></li>
+      <li><a href="services/RawKeyEventDataLinux-class.html">RawKeyEventDataLinux</a></li>
+      <li><a href="services/RawKeyEventDataMacOs-class.html">RawKeyEventDataMacOs</a></li>
+      <li><a href="services/RawKeyUpEvent-class.html">RawKeyUpEvent</a></li>
+      <li><a href="services/StandardMessageCodec-class.html">StandardMessageCodec</a></li>
+      <li><a href="services/StandardMethodCodec-class.html">StandardMethodCodec</a></li>
+      <li><a href="services/StringCodec-class.html">StringCodec</a></li>
+      <li><a href="services/SystemChannels-class.html">SystemChannels</a></li>
+      <li><a href="services/SystemChrome-class.html">SystemChrome</a></li>
+      <li><a href="services/SystemNavigator-class.html">SystemNavigator</a></li>
+      <li><a href="services/SystemSound-class.html">SystemSound</a></li>
+      <li><a href="services/SystemUiOverlayStyle-class.html">SystemUiOverlayStyle</a></li>
+      <li><a href="services/TextEditingValue-class.html">TextEditingValue</a></li>
+      <li><a href="services/TextInput-class.html">TextInput</a></li>
+      <li><a href="services/TextInputClient-class.html">TextInputClient</a></li>
+      <li><a href="services/TextInputConfiguration-class.html">TextInputConfiguration</a></li>
+      <li><a href="services/TextInputConnection-class.html">TextInputConnection</a></li>
+      <li><a href="services/TextInputFormatter-class.html">TextInputFormatter</a></li>
+      <li><a href="services/TextInputType-class.html">TextInputType</a></li>
+      <li><a href="dart-ui/TextPosition-class.html">TextPosition</a></li>
+      <li><a href="services/TextRange-class.html">TextRange</a></li>
+      <li><a href="services/TextSelection-class.html">TextSelection</a></li>
+      <li><a href="services/TextSelectionDelegate-class.html">TextSelectionDelegate</a></li>
+      <li><a href="services/UiKitViewController-class.html">UiKitViewController</a></li>
+      <li><a href="services/WhitelistingTextInputFormatter-class.html">WhitelistingTextInputFormatter</a></li>
+    
+      <li class="section-title"><a href="services/services-library.html#mixins">Mixins</a></li>
+      <li><a href="services/ServicesBinding-mixin.html">ServicesBinding</a></li>
+    
+      <li class="section-title"><a href="services/services-library.html#constants">Constants</a></li>
+      <li><a href="services/defaultBinaryMessenger-constant.html">defaultBinaryMessenger</a></li>
+    
+      <li class="section-title"><a href="services/services-library.html#properties">Properties</a></li>
+      <li><a href="services/platformViewsRegistry.html">platformViewsRegistry</a></li>
+      <li><a href="services/rootBundle.html">rootBundle</a></li>
+    
+    
+      <li class="section-title"><a href="services/services-library.html#enums">Enums</a></li>
+      <li><a href="dart-ui/Brightness-class.html">Brightness</a></li>
+      <li><a href="services/DeviceOrientation-class.html">DeviceOrientation</a></li>
+      <li><a href="services/FloatingCursorDragState-class.html">FloatingCursorDragState</a></li>
+      <li><a href="services/KeyboardSide-class.html">KeyboardSide</a></li>
+      <li><a href="services/ModifierKey-class.html">ModifierKey</a></li>
+      <li><a href="services/SystemSoundType-class.html">SystemSoundType</a></li>
+      <li><a href="services/SystemUiOverlay-class.html">SystemUiOverlay</a></li>
+      <li><a href="dart-ui/TextAffinity-class.html">TextAffinity</a></li>
+      <li><a href="services/TextCapitalization-class.html">TextCapitalization</a></li>
+      <li><a href="services/TextInputAction-class.html">TextInputAction</a></li>
+    
+      <li class="section-title"><a href="services/services-library.html#typedefs">Typedefs</a></li>
+      <li><a href="services/MessageHandler.html">MessageHandler</a></li>
+      <li><a href="services/PlatformViewCreatedCallback.html">PlatformViewCreatedCallback</a></li>
+      <li><a href="services/TextInputFormatFunction.html">TextInputFormatFunction</a></li>
+    
+      <li class="section-title"><a href="services/services-library.html#exceptions">Exceptions</a></li>
+      <li><a href="services/MissingPluginException-class.html">MissingPluginException</a></li>
+      <li><a href="services/PlatformException-class.html">PlatformException</a></li>
+    </ol>
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

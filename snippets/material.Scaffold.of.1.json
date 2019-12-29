@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/scaffold.dart",
+    "sourceLine": 1256,
+    "id": "material.Scaffold.of.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "Scaffold.of",
+    "file": "material.Scaffold.of.1.dart",
+    "description": "Typical usage of the [Scaffold.of] function is to call it from within the\n`build` method of a child of a [Scaffold]."
+}

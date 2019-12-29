@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/checkbox_list_tile.dart",
+    "sourceLine": 250,
+    "id": "material.CheckboxListTile.2",
+    "serial": "2",
+    "package": "flutter",
+    "library": "material",
+    "element": "CheckboxListTile",
+    "file": "material.CheckboxListTile.2.dart",
+    "description": "![Checkbox list tile semantics sample](https://flutter.github.io/assets-for-api-docs/assets/material/checkbox_list_tile_semantics.png)\n\nHere is an example of a custom labeled checkbox widget, called\nLinkedLabelCheckbox, that includes an interactive [RichText] widget that\nhandles tap gestures."
+}

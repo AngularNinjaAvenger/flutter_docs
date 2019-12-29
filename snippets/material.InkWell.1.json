@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/ink_well.dart",
+    "sourceLine": 831,
+    "id": "material.InkWell.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "InkWell",
+    "file": "material.InkWell.1.dart",
+    "description": "Tap the container to cause it to grow. Then, tap it again and hold before\nthe widget reaches its maximum size to observe the clipped ink splash."
+}

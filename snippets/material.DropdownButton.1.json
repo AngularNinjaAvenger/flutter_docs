@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/dropdown.dart",
+    "sourceLine": 593,
+    "id": "material.DropdownButton.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "DropdownButton",
+    "file": "material.DropdownButton.1.dart",
+    "description": "This sample shows a `DropdownButton` with a customized icon, text style,\nand underline and whose value is one of \"One\", \"Two\", \"Free\", or \"Four\".\n\n![A screenshot of the dropdown button](https://flutter.github.io/assets-for-api-docs/assets/material/dropdown_button.png)"
+}

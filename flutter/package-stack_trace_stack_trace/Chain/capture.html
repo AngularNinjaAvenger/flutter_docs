@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
+  <meta name="description" content="API docs for the capture method from the Chain class, for the Dart programming language."/>
+  <title>capture method - Chain class - stack_trace library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="../.."/>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link rel="stylesheet" href="static-assets/github.css"/>
+  <link rel="stylesheet" href="static-assets/styles.css"/>
+  <link rel="icon" href="static-assets/favicon.png"/>
+  <!-- style overrides for dartdoc -->
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:500,400italic,300,400,100i';
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+</style>
+
+<link href="../assets/overrides.css" rel="stylesheet" type="text/css"/>
+
+<!-- The following rules are from http://google.github.io/material-design-icons/ -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+  /* Rules for sizing the icon. */
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  /* Rules for using icons as black on a light background. */
+  .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+  .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+  /* Rules for using icons as white on a dark background. */
+  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+  .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67589403-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script async="" defer="" src="../assets/api_survey.js"></script>
+
+<!-- Styles and scripting for handling custom code snippets -->
+<link href="../assets/snippets.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/snippets.js"></script>
+
+<link rel="search" type="application/opensearchdescription+xml" title="Flutter API" href="opensearch.xml"/>
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">Flutter</a></li>
+    <li><a href="package-stack_trace_stack_trace/package-stack_trace_stack_trace-library.html">stack_trace</a></li>
+    <li><a href="package-stack_trace_stack_trace/Chain-class.html">Chain</a></li>
+    <li class="self-crumb">capture&lt;<wbr/><span class="type-parameter">T</span>&gt; method</li>
+  </ol>
+  <div class="self-name">capture</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled="" class="form-control typeahead" placeholder="Loading search..."/>
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">Flutter</a></li>
+      <li><a href="package-stack_trace_stack_trace/package-stack_trace_stack_trace-library.html">stack_trace</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain-class.html">Chain</a></li>
+      <li class="self-crumb">capture&lt;<wbr/><span class="type-parameter">T</span>&gt; method</li>
+    </ol>
+    
+    <h5>Chain class</h5>
+    <ol>
+      <li class="section-title"><a href="package-stack_trace_stack_trace/Chain-class.html#constructors">Constructors</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/Chain.html">Chain</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/Chain.current.html">current</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/Chain.forTrace.html">forTrace</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/Chain.parse.html">parse</a></li>
+    
+      <li class="section-title">
+        <a href="package-stack_trace_stack_trace/Chain-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="package-stack_trace_stack_trace/Chain/terse.html">terse</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/traces.html">traces</a></li>
+      <li class="inherited"><a href="dart-core/Object/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="dart-core/Object/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title"><a href="package-stack_trace_stack_trace/Chain-class.html#instance-methods">Methods</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/foldFrames.html">foldFrames</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/toString.html">toString</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/toTrace.html">toTrace</a></li>
+      <li class="inherited"><a href="dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    
+      <li class="section-title inherited"><a href="package-stack_trace_stack_trace/Chain-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="dart-core/Object/operator_equals.html">operator ==</a></li>
+    
+    
+      <li class="section-title"><a href="package-stack_trace_stack_trace/Chain-class.html#static-methods">Static methods</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/capture.html">capture</a></li>
+      <li><a href="package-stack_trace_stack_trace/Chain/disable.html">disable</a></li>
+      <li><a class="deprecated" href="package-stack_trace_stack_trace/Chain/track.html">track</a></li>
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><a class="dashingAutolink" name="autolink-23997"></a><a class="dashAnchor" name="//apple_ref/cpp/Method/capture%3CT%3E"></a><span class="kind-method">capture&lt;<wbr/><span class="type-parameter">T</span>&gt;</span> method</h1></div>
+
+    <section class="multi-line-signature">
+      <span class="returntype">T</span>
+            <span class="name ">capture</span>
+&lt;<wbr/><span class="type-parameter">T</span>&gt;(<wbr/><span class="parameter" id="capture-param-callback"><span class="type-annotation">T</span> <span class="parameter-name">callback</span>(), {</span> <span class="parameter" id="capture-param-onError"><span class="type-annotation">void</span> <span class="parameter-name">onError</span>(<span class="parameter" id="onError-param-error"><span class="type-annotation">dynamic</span> <span class="parameter-name">error</span>, </span> <span class="parameter" id="onError-param-chain"><span class="type-annotation"><a href="package-stack_trace_stack_trace/Chain-class.html">Chain</a></span> <span class="parameter-name">chain</span></span>), </span> <span class="parameter" id="capture-param-when"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">when</span>: <span class="default-value">true</span>, </span> <span class="parameter" id="capture-param-errorZone"><span class="type-annotation"><a href="dart-core/bool-class.html">bool</a></span> <span class="parameter-name">errorZone</span>: <span class="default-value">true</span></span> })
+      
+    </section>
+    <section class="desc markdown">
+      <p>If <code>when</code> is <code>true</code>, runs <code>callback</code> in a <a href="dart-async/Zone-class.html">Zone</a> in which the current
+stack chain is tracked and automatically associated with (most) errors.</p>
+<p>If <code>when</code> is <code>false</code>, this does not track stack chains. Instead, it&#39;s
+identical to <a href="dart-async/runZoned.html">runZoned</a>, except that it wraps any errors in <a href="package-stack_trace_stack_trace/Chain/Chain.forTrace.html">new
+Chain.forTrace</a>&mdash;which will only wrap the trace unless there&#39;s a different
+<a href="package-stack_trace_stack_trace/Chain/capture.html">Chain.capture</a> active. This makes it easy for the caller to only capture
+stack chains in debug mode or during development.</p>
+<p>If <code>onError</code> is passed, any error in the zone that would otherwise go
+unhandled is passed to it, along with the <a href="package-stack_trace_stack_trace/Chain-class.html">Chain</a> associated with that
+error. Note that if <code>callback</code> produces multiple unhandled errors,
+<code>onError</code> may be called more than once. If <code>onError</code> isn&#39;t passed, the
+parent Zone&#39;s <code>unhandledErrorHandler</code> will be called with the error and
+its chain.</p>
+<p>If <code>errorZone</code> is <code>true</code>, the zone this creates will be an error zone,
+even if <code>onError</code> isn&#39;t passed. This means that any errors that would
+cross the zone boundary are considered unhandled. If <code>errorZone</code> is
+<code>false</code>, <code>onError</code> must be <code>null</code>.</p>
+<p>If <code>callback</code> returns a value, it will be returned by <a href="package-stack_trace_stack_trace/Chain/capture.html">capture</a> as well.</p>
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span></h2>
+      <pre class="language-dart"><code class="language-dart">static T capture&lt;T&gt;(T callback(),
+    {void onError(error, Chain chain),
+    bool when: true,
+    bool errorZone: true}) {
+  if (!errorZone &amp;&amp; onError != null) {
+    throw new ArgumentError.value(
+        onError, &#34;onError&#34;, &#34;must be null if errorZone is false&#34;);
+  }
+
+  if (!when) {
+    var newOnError;
+    if (onError != null) {
+      newOnError = (error, stackTrace) {
+        onError(
+            error,
+            stackTrace == null
+                ? new Chain.current()
+                : new Chain.forTrace(stackTrace));
+      };
+    }
+
+    return runZoned(callback, onError: newOnError);
+  }
+
+  var spec = new StackZoneSpecification(onError, errorZone: errorZone);
+  return runZoned(() {
+    try {
+      return callback();
+    } catch (error, stackTrace) {
+      // TODO(nweiz): Don&#39;t special-case this when issue 19566 is fixed.
+      Zone.current.handleUncaughtError(error, stackTrace);
+      return null;
+    }
+  },
+      zoneSpecification: spec.toSpec(),
+      zoneValues: {_specKey: spec, StackZoneSpecification.disableKey: false});
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    Flutter 0.0.0
+  </span>
+
+  <script src="footer.js"></script>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+
+
+
+</body></html>

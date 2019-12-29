@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/chip.dart",
+    "sourceLine": 236,
+    "id": "chip.DeletableChipAttributes.onDeleted.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "chip",
+    "element": "DeletableChipAttributes.onDeleted",
+    "file": "chip.DeletableChipAttributes.onDeleted.1.dart",
+    "description": "This sample shows how to use [onDeleted] to remove an entry when the\ndelete button is tapped."
+}

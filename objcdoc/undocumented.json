@@ -1,0 +1,278 @@
+{
+  "warnings": [
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterAppDelegate.h",
+      "line": 30,
+      "symbol": "FlutterAppDelegate.window",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 92,
+      "symbol": "FlutterStandardWriter.-initWithData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 93,
+      "symbol": "FlutterStandardWriter.-writeByte:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 94,
+      "symbol": "FlutterStandardWriter.-writeBytes:length:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 95,
+      "symbol": "FlutterStandardWriter.-writeData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 96,
+      "symbol": "FlutterStandardWriter.-writeSize:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 97,
+      "symbol": "FlutterStandardWriter.-writeAlignment:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 98,
+      "symbol": "FlutterStandardWriter.-writeUTF8:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 99,
+      "symbol": "FlutterStandardWriter.-writeValue:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 111,
+      "symbol": "FlutterStandardReader.-initWithData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 112,
+      "symbol": "FlutterStandardReader.-hasMore",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 113,
+      "symbol": "FlutterStandardReader.-readByte",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 114,
+      "symbol": "FlutterStandardReader.-readBytes:length:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 115,
+      "symbol": "FlutterStandardReader.-readData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 116,
+      "symbol": "FlutterStandardReader.-readSize",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 117,
+      "symbol": "FlutterStandardReader.-readAlignment:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 118,
+      "symbol": "FlutterStandardReader.-readUTF8",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 119,
+      "symbol": "FlutterStandardReader.-readValue",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 120,
+      "symbol": "FlutterStandardReader.-readValueOfType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 129,
+      "symbol": "FlutterStandardReaderWriter.-writerWithData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 130,
+      "symbol": "FlutterStandardReaderWriter.-readerWithData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 160,
+      "symbol": "FlutterStandardMessageCodec.+codecWithReaderWriter:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 229,
+      "symbol": "FlutterStandardDataType.FlutterStandardDataTypeUInt8",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 230,
+      "symbol": "FlutterStandardDataType.FlutterStandardDataTypeInt32",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 231,
+      "symbol": "FlutterStandardDataType.FlutterStandardDataTypeInt64",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 232,
+      "symbol": "FlutterStandardDataType.FlutterStandardDataTypeFloat64",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterCodecs.h",
+      "line": 406,
+      "symbol": "FlutterStandardMethodCodec.+codecWithReaderWriter:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterEngine.h",
+      "line": 90,
+      "symbol": "FlutterEngine.+new",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterPlatformViews.h",
+      "line": 26,
+      "symbol": "FlutterPlatformViewFactory",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterPlatformViews.h",
+      "line": 51,
+      "symbol": "FlutterPlatformViewFactory.-createArgsCodec",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterPlugin.h",
+      "line": 377,
+      "symbol": "FlutterAppLifeCycleProvider.-addApplicationLifeCycleDelegate:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterPlugin.h",
+      "line": 380,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.unexposed",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 16,
+      "symbol": "FlutterTexture",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 17,
+      "symbol": "FlutterTexture.-copyPixelBuffer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 21,
+      "symbol": "FlutterTextureRegistry",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 22,
+      "symbol": "FlutterTextureRegistry.-registerTexture:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 23,
+      "symbol": "FlutterTextureRegistry.-textureFrameAvailable:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterTexture.h",
+      "line": 24,
+      "symbol": "FlutterTextureRegistry.-unregisterTexture:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "../out/ios_debug_sim/Flutter.framework/Headers/FlutterViewController.h",
+      "line": 73,
+      "symbol": "FlutterViewController.-handleStatusBarTouches:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/b/s/w/ir/k/src/flutter"
+}

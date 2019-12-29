@@ -1,0 +1,11 @@
+{
+    "sourcePath": "lib/src/material/stepper.dart",
+    "sourceLine": 236,
+    "id": "material.Stepper.controlsBuilder.1",
+    "serial": "1",
+    "package": "flutter",
+    "library": "material",
+    "element": "Stepper.controlsBuilder",
+    "file": "material.Stepper.controlsBuilder.1.dart",
+    "description": "Creates a stepper control with custom buttons."
+}
